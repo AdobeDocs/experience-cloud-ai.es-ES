@@ -16,7 +16,7 @@ ht-degree: 0%
 >Audience Agent está disponible para todos los clientes que tienen acceso a AI Assistant. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de Audience Agent.
 >
 >**Ver segmentos**: Este permiso le permite utilizar Audience Agent para ver información de las audiencias directamente en el Asistente de IA.
->>**Administrar segmentos**: El permiso Para permite utilizar Audience Agent para crear nuevas audiencias directamente en el Asistente de IA.
+>&#x200B;>**Administrar segmentos**: El permiso Para permite utilizar Audience Agent para crear nuevas audiencias directamente en el Asistente de IA.
 
 Audience Agent le permite ver información sobre las audiencias, como la detección de cambios significativos en el tamaño de la audiencia, la detección de audiencias duplicadas, la exploración del inventario de audiencias y la recuperación del tamaño de las audiencias.
 
