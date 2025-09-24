@@ -1,13 +1,13 @@
 ---
 audience: user
-user-guide-title: Guía del asistente de IA en Adobe Experience Platform
+user-guide-title: Asistente de IA en Adobe Experience Cloud
 user-guide-description: Aprenda a utilizar AI Assistant para acelerar el flujo de trabajo con Adobe Experience Platform y Real-Time Customer Data Platform.
 description: Obtenga información sobre el asistente de IA en Experience Cloud. Mejore su conocimiento del producto y obtenga perspectivas operativas mediante la IA en Experience Cloud.
-solution: Experience Platform
+solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 04afa45b0fae7aace9bd81afd2ac032c7d0f55c6
+source-git-commit: 58cce845f525e7762f32379a8db5791b677ae54f
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
