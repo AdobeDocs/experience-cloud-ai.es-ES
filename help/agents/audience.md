@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Aprenda a utilizar Audience Agent para crear audiencias, ver cambios de audiencia, detectar audiencias duplicadas y ver perspectivas de audiencia.
-source-git-commit: 6d1f6a8c6a97bbbad88c0dd8123fac7821f06754
+source-git-commit: d91aac948a6fef36949218004dc0481dc8f5cf7f
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >Audience Agent está disponible para todos los clientes que tienen acceso a AI Assistant. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de Audience Agent.
 >
 >**Ver segmentos**: Este permiso le permite utilizar Audience Agent para ver información de las audiencias directamente en el Asistente de IA.
->&#x200B;>**Administrar segmentos**: El permiso Para permite utilizar Audience Agent para crear nuevas audiencias directamente en el Asistente de IA.
+>>**Administrar segmentos**: El permiso Para permite utilizar Audience Agent para crear nuevas audiencias directamente en el Asistente de IA.
 
 Audience Agent le permite ver información sobre las audiencias, como la detección de cambios significativos en el tamaño de la audiencia, la detección de audiencias duplicadas, la exploración del inventario de audiencias y la recuperación del tamaño de las audiencias.
 
@@ -33,7 +33,7 @@ El asistente de Audience Agent en IA es compatible con los siguientes casos de u
 - Descubra los campos XDM que puede utilizar para definir una audiencia
    - Esta aptitud le permite identificar con mayor facilidad los campos correctos para su audiencia en función del contexto y la relevancia
 
-En la actualidad, Audience Agent **no** admite las siguientes características:
+Audience Agent no **admite actualmente** las siguientes características:
 
 - Creación de audiencias basada en el conocimiento
    - La creación de audiencias basada en el conocimiento consiste en crear una audiencia basada en los atributos y eventos determinados
