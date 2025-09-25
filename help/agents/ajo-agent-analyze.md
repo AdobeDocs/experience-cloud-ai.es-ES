@@ -4,7 +4,7 @@ description: Guía completa sobre la aptitud para analizar de Journey Agent, que
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: cf29a28477881b400b32b4623ccff2e626010e10
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 0%
@@ -23,9 +23,12 @@ Journey Agent permitirá a los usuarios de Journey Optimizer analizar y optimiza
 >Journey Agent está disponible para todos los clientes que tienen acceso a AI Assistant. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de Journey Agent.
 >
 >**Ver Recorridos**: este permiso le permite usar Journey Agent para ver información sobre el recorrido directamente en el Asistente de IA.
->&#x200B;>**Administrar Recorridos**: El permiso Para permite utilizar Journey Agent para crear nuevos recorridos directamente en el Asistente de IA.
->&#x200B;>**Ver segmentos**: Este permiso le permite utilizar Journey Agent para ver información de las audiencias directamente en el Asistente de IA.
->&#x200B;>**Administrar segmentos**: El permiso Para permite utilizar Journey Agent para crear nuevas audiencias directamente en el Asistente de IA.
+>
+>**Administrar Recorridos**: El permiso Para permite usar Journey Agent para crear recorridos nuevos directamente en el Asistente de IA.
+>
+>**Ver segmentos**: Este permiso le permite utilizar Journey Agent para ver información de las audiencias directamente en el Asistente de IA.
+>
+>**Administrar segmentos**: El permiso Para permite usar Journey Agent para crear nuevas audiencias directamente en el Ayudante de IA.
 
 ![Muestra para el agente de AJO](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -140,7 +143,6 @@ Utilice estos indicadores para analizar posibles conflictos entre recorridos, in
 - &quot;Analice el riesgo de conflicto para el recorrido [Nombre de Recorrido].&quot;
 - &quot;Proporcionar diagnósticos de conflicto para [Nombre de Recorrido].&quot;
 
-
 ## Prácticas recomendadas
 
 ### Prácticas recomendadas de solicitud
@@ -150,7 +152,6 @@ Para maximizar la eficacia del análisis de Journey Agent, siga estas prácticas
 1. **Sea específico**: Use mensajes claros y concisos para obtener información objetivo. Por ejemplo, en lugar de preguntar &quot;¿Cuáles son mis recorridos?&quot;, especifique &quot;Enumerar todos los recorridos creados en el último mes&quot;.
 1. **Combinar perspectivas**: integre perspectivas de Audience Agent y Data Insights Agent para obtener una vista integral del rendimiento del recorrido.
 1. **Refinamiento iterativo**: utilice el análisis de visitas en el orden previsto y superposición para refinar iterativamente el diseño y la programación del recorrido.
-
 
 ### Prácticas recomendadas de configuración
 

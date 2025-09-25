@@ -1,7 +1,7 @@
 ---
 title: Guía de IU del asistente de IA
 description: Obtenga información sobre cómo acceder y utilizar el Asistente de IA en la interfaz de usuario.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 0%
@@ -57,12 +57,12 @@ La interfaz del asistente de IA incluye varios elementos clave para ayudarle a i
 La vista de carril proporciona acceso rápido al chat, las peticiones de información, las actualizaciones, las conversaciones y los controles de interfaz en un panel compacto.
 
 1. **[!UICONTROL Chat]**: selecciona **[!UICONTROL Chat]** en el encabezado para volver a tu conversación en el caso de que hayas salido para acceder a diferentes elementos de la interfaz.
-2. **[!UICONTROL Descubrimiento]**: seleccione **[!UICONTROL Descubrimiento]** para ver una lista de los mensajes del Asistente de inteligencia artificial organizados por categoría. Puede utilizar estas indicaciones preconfiguradas para rellenar el chat. Además, puede modificar las indicaciones sugeridas para que se ajusten a su caso de uso particular.
-3. **[!UICONTROL Novedades]**: selecciona **[!UICONTROL Novedades]** para ver una lista de las últimas actualizaciones disponibles para el Asistente de IA.
-4. **[!UICONTROL Conversaciones]**: selecciona el icono **[!UICONTROL Conversaciones]** para iniciar una nueva conversación y acceder a las conversaciones recientes de tu historial. Para obtener más información, lea la sección sobre [conversaciones](#conversations).
-5. **Vista de pantalla completa**: selecciona el icono **[!UICONTROL Vista de pantalla completa]** para cambiar la interfaz del asistente de IA del carril derecho al modo de pantalla completa.
-6. **Autocompletar datos y objetos**: seleccione el icono de signo + para usar la sugerencia y autocompletar datos y objetos. Una vez seleccionada, puede utilizar una ventana emergente para seleccionar las entidades sugeridas. Para obtener más información, lea la sección sobre [autocompletar datos y objetos](#autocomplete).
-7. **Configuración de contexto**: seleccione el icono Configuración de contexto para configurar las fuentes de información del Asistente de IA. Puede utilizar esta herramienta para configurar la aplicación, la zona protegida y la vista de datos a los que hace referencia el Asistente de IA para responder a la consulta. Para obtener más información, lea la sección sobre [configuración de contexto](#context-setting).
+1. **[!UICONTROL Descubrimiento]**: seleccione **[!UICONTROL Descubrimiento]** para ver una lista de los mensajes del Asistente de inteligencia artificial organizados por categoría. Puede utilizar estas indicaciones preconfiguradas para rellenar el chat. Además, puede modificar las indicaciones sugeridas para que se ajusten a su caso de uso particular.
+1. **[!UICONTROL Novedades]**: selecciona **[!UICONTROL Novedades]** para ver una lista de las últimas actualizaciones disponibles para el Asistente de IA.
+1. **[!UICONTROL Conversaciones]**: selecciona el icono **[!UICONTROL Conversaciones]** para iniciar una nueva conversación y acceder a las conversaciones recientes de tu historial. Para obtener más información, lea la sección sobre [conversaciones](#conversations).
+1. **Vista de pantalla completa**: selecciona el icono **[!UICONTROL Vista de pantalla completa]** para cambiar la interfaz del asistente de IA del carril derecho al modo de pantalla completa.
+1. **Autocompletar datos y objetos**: seleccione el icono de signo + para usar la sugerencia y autocompletar datos y objetos. Una vez seleccionada, puede utilizar una ventana emergente para seleccionar las entidades sugeridas. Para obtener más información, lea la sección sobre [autocompletar datos y objetos](#autocomplete).
+1. **Configuración de contexto**: seleccione el icono Configuración de contexto para configurar las fuentes de información del Asistente de IA. Puede utilizar esta herramienta para configurar la aplicación, la zona protegida y la vista de datos a los que hace referencia el Asistente de IA para responder a la consulta. Para obtener más información, lea la sección sobre [configuración de contexto](#context-setting).
 
 ![El asistente de IA en la vista de carril](./images/ai-assistant/rail-mode.png)
 
