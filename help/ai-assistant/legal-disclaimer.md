@@ -1,7 +1,7 @@
 ---
 title: 'Descargo de responsabilidad legal: datos personales, asistencia en el idioma y verificación de respuestas'
 description: Obtenga información sobre las exenciones de responsabilidad legales relacionadas con los datos personales, el soporte de idiomas y la verificación de respuestas al utilizar AI Assistant.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -25,3 +25,4 @@ Actualmente, el asistente de IA solo es compatible en inglés. Las entradas que 
 ## Verificación de respuestas {#verifying-responses}
 
 Es importante comprobar sus respuestas, ya que los modelos lingüísticos pueden cometer errores. Compruebe siempre las fuentes para asegurarse de que la lógica SQL es correcta y de que se hace referencia a la documentación adecuada para su caso de uso. Revise los pasos de razonamiento y las explicaciones proporcionadas por AI Assistant para comprender cómo llegó a su respuesta. Si algo no parece correcto, envíe sus comentarios.
+

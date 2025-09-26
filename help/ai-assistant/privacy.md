@@ -1,7 +1,7 @@
 ---
 title: Privacidad, seguridad y administración en el asistente de IA
 description: Obtenga información acerca de las prácticas de privacidad, seguridad y gobernanza de AI Assistant.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -16,13 +16,13 @@ Lea este documento para obtener más información acerca de las capacidades cent
 
 * En la actualidad, AI Assistant no utiliza datos personales, ni siquiera con fines formativos.
 * El asistente de IA no tiene conocimiento de los datos de los consumidores.
-* El Asistente de IA respetará todas las directivas de [control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) existentes.
+* El Asistente de IA respetará todas las directivas de [control de acceso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) existentes.
 
-   * Cualquier nueva política de control de acceso basada en atributos se reflejará en el asistente de IA después de un máximo de 24 horas&ast;
+   * Cualquier nueva política de control de acceso basada en atributos se reflejará en el asistente de IA después de un máximo de 24 horas&amp;ast;
 
 * Se le debe otorgar permiso explícito para interactuar con el Ayudante de IA.
 
-   * Puede establecer permisos diferentes para Experience Platform y Journey Optimizer mediante la interfaz de usuario de [permisos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/browse) y puede usar [Admin Console](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/browse) para asignar permisos para Customer Journey Analytics.
+   * Puede establecer permisos diferentes para Experience Platform y Journey Optimizer mediante la interfaz de usuario de [permisos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse) y puede usar [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse) para asignar permisos para Customer Journey Analytics.
    * Los permisos son granulares y el administrador de la zona protegida puede configurar cuál de los usuarios puede hacer diferentes categorías de preguntas (preguntas basadas en el conocimiento del producto con el asistente de IA o preguntas sobre perspectivas operativas).
 
 * AI Assistant es una función compatible con HIPAA cuando se utiliza en combinación con Adobe Experience Platform Healthcare Shield.
@@ -30,5 +30,4 @@ Lea este documento para obtener más información acerca de las capacidades cent
 * El asistente de IA se basa en datos específicos de zonas protegidas y en la documentación pública de Adobe al responder a las solicitudes de los usuarios. Los datos no se comparten en entornos limitados.
 * Los mensajes que proporcione al asistente de IA no se comparten con otros clientes.
 
-&ast; *Esto implica que si se agregan etiquetas nuevas a los campos y objetos o se crean directivas nuevas, el Asistente de IA tardará hasta 24 horas en respetarlas. Durante esas 24 horas, los usuarios con acceso recién restringido aún pueden tener acceso a esos campos y objetos.*
-
+&amp;ast; *Esto implica que si se agregan etiquetas nuevas a los campos y objetos o se crean directivas nuevas, el Asistente de IA tardará hasta 24 horas en respetarlas. Durante esas 24 horas, los usuarios con acceso recién restringido aún pueden tener acceso a esos campos y objetos.*

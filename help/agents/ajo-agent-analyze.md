@@ -4,7 +4,7 @@ description: Guía completa sobre la aptitud para analizar de Journey Agent, que
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 0%
@@ -158,3 +158,4 @@ Para maximizar la eficacia del análisis de Journey Agent, siga estas prácticas
 - **Definir objetivos claros**: antes de analizar los recorridos, establezca objetivos claros (por ejemplo, mejorar la retención y aumentar las conversiones).
 - **Supervisar con regularidad**: Programe revisiones periódicas del rendimiento del recorrido para identificar tendencias y anomalías.
 - **Optimizar segmentación**: Asegúrese de que la segmentación de audiencia esté equilibrada para evitar fatiga y maximizar la participación.
+
