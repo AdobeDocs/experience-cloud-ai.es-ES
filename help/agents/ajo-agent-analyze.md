@@ -1,13 +1,13 @@
 ---
 title: Guía del usuario y descripción general de aptitudes del agente de análisis de recorrido
-description: Guía completa sobre la aptitud para analizar de Journey Agent, que permite a los usuarios analizar los recorridos de marketing, detectar problemas, descubrir perspectivas y optimizar la participación del cliente.
+description: Guía completa de la capacidad de análisis de Journey Agent que permite a los usuarios analizar los recorridos de marketing, detectar problemas, descubrir información y optimizar la participación del cliente.
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: 26b579471b591d3c436f4275d07303d297e0fbf8
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 0%
+source-wordcount: '979'
+ht-degree: 38%
 
 ---
 
@@ -16,45 +16,47 @@ ht-degree: 0%
 
 ## Información general
 
-Journey Agent permitirá a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con Journey Agent, los profesionales pueden identificar y resolver rápidamente conflictos de programación o audiencia, detectar puntos de abandono de usuarios en un recorrido y proporcionar perspectivas o recomendaciones. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación de los clientes y optimizar la organización de recorridos.
+Journey Agent permitirá a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con Journey Agent, los profesionales pueden identificar y resolver rápidamente conflictos de programación o audiencia, detectar puntos de abandono de usuarios en un recorrido y proporcionar perspectivas o recomendaciones. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación del cliente y agilizar la orquestación del recorrido.
+
+Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
->Journey Agent está disponible para todos los clientes que tienen acceso a AI Assistant. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de Journey Agent.
+>Journey Agent está disponible para todos los clientes que tienen acceso a AI Assistant. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de Journey Agent:
 >
->**Ver Recorridos**: este permiso le permite usar Journey Agent para ver información sobre el recorrido directamente en el Asistente de IA.
+>**Ver Recorridos**: este permiso le permite ver información sobre el recorrido directamente en el Ayudante de IA.
 >
->**Administrar Recorridos**: El permiso Para permite usar Journey Agent para crear recorridos nuevos directamente en el Asistente de IA.
+>**Administrar Recorridos**: El permiso Para permite crear nuevos recorridos directamente en el Asistente de IA.
 >
->**Ver segmentos**: Este permiso le permite utilizar Journey Agent para ver información de las audiencias directamente en el Asistente de IA.
+>**Ver segmentos**: Este permiso le permite ver información de las audiencias directamente en el Asistente de IA.
 >
->**Administrar segmentos**: El permiso Para permite usar Journey Agent para crear nuevas audiencias directamente en el Ayudante de IA.
+>**Administrar segmentos**: El permiso Para permite crear nuevas audiencias directamente en el Asistente de IA.
 
 ![Muestra para el agente de AJO](./images/ajo-agent/ajo-agent-sample.png)
 
 ## Casos de uso
 
-### Casos de uso clave de Journey Agent Analyze
+### Principales casos de uso de análisis de Journey Agent
 
-La aptitud de Journey Agent Analyze ofrece una serie de funcionalidades que se pueden aprovechar para optimizar los esfuerzos de marketing:
+La capacidad de análisis de Journey Agent ofrece una serie de funcionalidades que pueden aprovecharse para optimizar los esfuerzos de marketing:
 
-1. **Análisis de abandonos de Recorrido**
+1. **Análisis del abandono del recorrido**
 
-   - Identificar dónde y por qué los clientes abandonan durante un recorrido.
-   - Detectar patrones en el comportamiento del cliente que conducen a la desparticipación.
-   - Utilice perspectivas para refinar el diseño del recorrido y mejorar la retención.
+   - Identifique dónde y por qué abandonan los clientes durante un recorrido.
+   - Detecte patrones de comportamiento del cliente que conducen a la desvinculación.
+   - Utilice la información para perfeccionar el diseño del recorrido y mejorar la retención.
 
-1. **Análisis de superposición de audiencia de Recorrido**
+1. **Análisis de solapamiento de público en los recorridos**
 
-   - Analizar la superposición de audiencias en varios recorridos.
-   - Evite la fatiga de la audiencia causada por la segmentación excesiva.
+   - Analice el solapamiento de público en múltiples recorridos.
+   - Evite la fatiga del público causada por una segmentación excesiva.
    - Optimice la segmentación para garantizar una participación equilibrada.
 
-1. **Análisis de superposición de programación de Recorrido**
+1. **Análisis del solapamiento de la programación en los recorridos**
 
-   - Detectar conflictos de sincronización entre recorridos programados dirigidos a la misma audiencia.
-   - Evite la comunicación excesiva y mejore la eficacia de la programación.
-   - Maximice el impacto de la audiencia asegurándose de que los recorridos se ejecuten en momentos óptimos.
+   - Detecte conflictos de horarios entre recorridos programados dirigidos al mismo público.
+   - Evite el exceso de comunicación y mejore la eficacia de la programación.
+   - Maximice el impacto en el público asegurándose de que los viajes se realizan en los momentos óptimos.
 
 1. **Datos operativos**
 
@@ -63,45 +65,45 @@ La aptitud de Journey Agent Analyze ofrece una serie de funcionalidades que se p
 Para cada uno de estos análisis, el agente no solo detecta problemas, sino que también proporciona **recomendaciones procesables para resolverlos**.
 
 
-## Habilidades dentro y fuera de ámbito
+## Competencias incluidas y excluidas del ámbito de aplicación
 
-### **En ámbito**
+### **Ámbito de aplicación**
 
-Journey Agent Analyze admite las siguientes funciones:
+Las siguientes funcionalidades son compatibles con el análisis de Journey Agent:
 
-- **Consultas reactivas**: permite a los usuarios hacer preguntas específicas sobre el rendimiento del recorrido, el uso de la audiencia y los conflictos de programación.
-- **Integración con otros agentes**: colabora con Audience Agent y Data Insights Agent para realizar un análisis más profundo.
+- **Consultas reactivas**: permite a los usuarios hacer preguntas específicas sobre el rendimiento del recorrido, el uso del público y los conflictos de programación.
+- **Integración con otros agentes**: colabora con Audience Agent y Data Insights Agent para un análisis más profundo.
 - **Estructura de la respuesta del agente**: razonamiento (explicar la lógica), resumen del análisis (resaltar puntos clave), detalles del problema (describir el problema) y recomendación (proponer pasos siguientes).
 
-### **Fuera de ámbito**
+### **Fuera del ámbito de aplicación**
 
 Actualmente no se admiten las siguientes funcionalidades:
 
-- **Creación automatizada de Recorrido**
+- **Creación automática de recorridos**
 - **Detección de anomalías en tiempo real**
-- **Superposición de canales**
-- **análisis de entrada de Recorrido**
+- **Los canales se solapan**
+- **Análisis de entrada del recorrido**
 - **Análisis de problemas técnicos**
 - **Análisis de fatiga**
 
-## Indicadores de ejemplo / Indicadores de ejemplo
+## Muestras de solicitudes/Ejemplos de solicitudes
 
-### Indicadores comunes para el análisis de Recorrido
+### Solicitudes habituales para el análisis del recorrido
 
-Estos son ejemplos de indicaciones útiles que los usuarios pueden aprovechar para explorar, monitorizar y solucionar problemas de sus recorridos.
+A continuación, presentamos ejemplos de solicitudes valiosas que los usuarios pueden aprovechar para explorar, monitorizar y solucionar problemas en sus recorridos.
 
-### Preguntas del ciclo vital de recorrido
+### Preguntas sobre el ciclo de vida del recorrido
 
 - &quot;¿Cuándo se publicó [Nombre de Recorrido]?&quot;
 - &quot;¿Cuándo se detuvo [Nombre de Recorrido]?&quot;
 - &quot;Enumerar todos los recorridos que están actualmente en modo de prueba&quot;
 
-### Preguntas de recursos de recorrido
+### Preguntas sobre los recursos del recorrido
 
 - &quot;¿Cuántos recorridos de vida tengo?&quot;
 - &quot;Dame una lista de todos los recorridos recurrentes programados y sus tiempos de ejecución esperados&quot;.
 
-### Audience and Recorrido Insights
+### Información sobre el público y el recorrido
 
 - &quot;¿Qué audiencias se utilizan en más de X recorridos?&quot;
 - &quot;Enumerar todos los recorridos con la audiencia [audience name]&quot;.
@@ -113,9 +115,9 @@ Estos son ejemplos de indicaciones útiles que los usuarios pueden aprovechar pa
 - &quot;¿Qué es la pérdida de perfil en el transcurso de la campaña del 4 de julio de recorrido?&quot;
 - &quot;Mostrar dónde caen los usuarios en la campaña del 4 de julio de recorrido&quot;.
 
-### Indicadores de análisis de conflicto
+### Solicitudes de análisis de conflictos
 
-Utilice estos indicadores para analizar posibles conflictos entre recorridos, incluida la programación y las superposiciones de audiencias:
+Utilice estas solicitudes para analizar los posibles conflictos entre recorridos, incluidos los solapamientos de horarios y públicos:
 
 - &quot;¿Puede hacer un análisis completo de los conflictos de nuestro recorrido [Nombre del Recorrido] con información de tipo de conflicto (programación/audiencia) con recorridos en vivo/en ejecución?&quot;
 - &quot;Realice un análisis de conflictos de programación para el recorrido [Nombre del Recorrido] con información de tipo de conflicto.&quot;
@@ -145,17 +147,17 @@ Utilice estos indicadores para analizar posibles conflictos entre recorridos, in
 
 ## Prácticas recomendadas
 
-### Prácticas recomendadas de solicitud
+### Prácticas recomendadas en materia de solicitudes
 
-Para maximizar la eficacia del análisis de Journey Agent, siga estas prácticas recomendadas:
+Para maximizar la eficacia de análisis de Journey Agent, siga estas prácticas recomendadas:
 
-1. **Sea específico**: Use mensajes claros y concisos para obtener información objetivo. Por ejemplo, en lugar de preguntar &quot;¿Cuáles son mis recorridos?&quot;, especifique &quot;Enumerar todos los recorridos creados en el último mes&quot;.
-1. **Combinar perspectivas**: integre perspectivas de Audience Agent y Data Insights Agent para obtener una vista integral del rendimiento del recorrido.
-1. **Refinamiento iterativo**: utilice el análisis de visitas en el orden previsto y superposición para refinar iterativamente el diseño y la programación del recorrido.
+1. **Sea específico**: utilice preguntas claras y concisas para obtener información específica. Por ejemplo, en lugar de preguntar &quot;¿Cuáles son mis recorridos?&quot;, especifique &quot;Enumerar todos los recorridos creados en el último mes&quot;.
+1. **Combine información**: integre la información de Audience Agent y Data Insights Agent para obtener una visión integral del rendimiento del recorrido.
+1. **Perfeccionamiento iterativo**: utilice el análisis de abandonos y solapamientos para perfeccionar de forma iterativa el diseño y la programación de los recorridos.
 
-### Prácticas recomendadas de configuración
+### Prácticas recomendadas para la configuración
 
-- **Definir objetivos claros**: antes de analizar los recorridos, establezca objetivos claros (por ejemplo, mejorar la retención y aumentar las conversiones).
-- **Supervisar con regularidad**: Programe revisiones periódicas del rendimiento del recorrido para identificar tendencias y anomalías.
-- **Optimizar segmentación**: Asegúrese de que la segmentación de audiencia esté equilibrada para evitar fatiga y maximizar la participación.
+- **Defina objetivos claros**: antes de analizar los recorridos, establezca objetivos claros (por ejemplo, mejorar la retención, aumentar las conversiones).
+- **Monitorice de forma periódica**: programe revisiones periódicas del rendimiento de los recorridos para identificar las tendencias y las anomalías.
+- **Optimice la segmentación**: asegúrese de que la segmentación del público está equilibrada para evitar la fatiga y maximizar la participación.
 
