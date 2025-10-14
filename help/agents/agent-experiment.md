@@ -1,11 +1,9 @@
 ---
 title: Agente de experimentación
 description: Aprenda a utilizar Experimentation Agent
-hide: true
-hidefromtoc: true
-source-git-commit: 352ba791195eca7f68e6d317e0f2449d6ededeb2
+source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '506'
 ht-degree: 2%
 
 ---
@@ -14,11 +12,11 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->El agente de experimentación está disponible para todos los clientes que tienen acceso al asistente de IA. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de Experimentación Agent.
+>El agente de experimentación está disponible para todos los clientes que tienen acceso al asistente de IA. Sin embargo, necesita los siguientes permisos para utilizar completamente las funciones de Agente de experimentación.
 >
 >**Ver experimentos**: este permiso le permite utilizar el agente de experimentación para ver información sobre el experimento directamente en el asistente de IA.
 >
->**Administrar metadatos de experimento**: El permiso Para permite usar el agente de experimentación para crear nuevos experimentos directamente en el asistente de IA.
+>**Administrar metadatos de experimento**: este permiso le permite usar el agente de experimentación para crear nuevos experimentos directamente en el asistente de IA.
 
 ## Información general
 
