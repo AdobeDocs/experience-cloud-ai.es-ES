@@ -1,10 +1,10 @@
 ---
-title: IA en las aplicaciones de Experience Cloud
+title: IA en aplicaciones de Experience Cloud
 description: Descubra cómo las aplicaciones de Experience Cloud utilizan la IA generativa (GenAI), el asistente de IA y la IA agéntica.
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
@@ -28,7 +28,7 @@ Le damos la bienvenida a la guía completa para las funcionalidades de IA en tod
 
 ### Agent Orchestrator
 
-[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) es la nueva capa agéntica de Adobe Experience Platform. Diseñado para aprovechar los abundantes datos y el conocimiento de los clientes de la plataforma, Experience Platform Agent Orchestrator potencia la inteligencia y el razonamiento detrás de los agentes de Adobe Experience Platform expertos creados específicamente, lo que les permite ejecutar tareas complejas de toma de decisiones y resolución de problemas a velocidad y escala, todo ello con supervisión humana. Cuando hace preguntas o solicita ayuda a través del lenguaje natural en una interfaz conversacional como el asistente de IA, Agent Orchestrator llama automáticamente a agentes especializados para que le obtengan las respuestas correctas. Agent Orchestrator recuerda el historial de sus conversaciones, lo que le permite basarse en preguntas anteriores de forma natural sin repetir el contexto, y combina las perspectivas de varios agentes para presentarle respuestas claras y unificadas.
+[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) es la nueva capa agéntica de Adobe Experience Platform. Diseñado para aprovechar los abundantes datos y el conocimiento de los clientes de la plataforma, Experience Platform Agent Orchestrator potencia la inteligencia y el razonamiento que hay detrás de los agentes expertos de Adobe Experience Platform creados específicamente, lo que les permite ejecutar tareas complejas de toma de decisiones y resolución de problemas con rapidez y a gran escala, todo ello con supervisión humana. Cuando formula preguntas o solicita ayuda a través del lenguaje natural en una interfaz conversacional como el Asistente de IA, Agent Orchestrator llama automáticamente a agentes especializados para que le den las respuestas correctas. Agent Orchestrator recuerda el historial de sus conversaciones, lo que le permite basarse en preguntas anteriores de forma natural sin repetir el contexto, y combina las perspectivas de varios agentes para presentarle respuestas claras y unificadas.
 
 **Componentes principales:**
 
@@ -71,7 +71,7 @@ Ofrece depuración de autoservicio y solución de problemas:
 - Creación de vales de soporte con contexto a partir de interacciones del asistente de IA
 - Comprobación de actualizaciones de tickets mediante el asistente de IA
 
-## Primeros pasos
+## Introducción
 
 ### Requisitos de acceso
 

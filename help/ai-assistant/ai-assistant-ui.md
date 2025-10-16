@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo acceder y utilizar el Asistente de
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '1843'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ Lea esta guía para aprender a utilizar el Asistente para IA.
 
 ![Interfaz de inicio del Asistente de IA en pantalla completa.](./images/ai-assistant/blank-home.png)
 
-## Acceder al asistente de IA
+## Acceso al Asistente de IA
 
 Existen varias formas de acceder a AI Assistant.
 
@@ -116,7 +116,7 @@ A continuación, desplácese hacia abajo hasta la parte inferior de la respuesta
 
 ![Ventana de sugerencias relacionadas en el Asistente para IA.](./images/ai-assistant/inputs/related-suggestions.png)
 
-### Ver orígenes
+### Ver fuentes
 
 Para comprobar la respuesta del Asistente de inteligencia artificial, seleccione **[!UICONTROL Sources]** para ver una lista de fuentes de información a las que hizo referencia el Asistente de inteligencia artificial al calcular su respuesta.
 
@@ -193,7 +193,7 @@ Aparece la ventana emergente *[!UICONTROL Respuesta de...]*. Utilice esta ventan
 | Fuente de información | Descripción | Ejemplos |
 | --- | --- | --- |
 | Aplicación | La aplicación de Experience Cloud a la que pertenece la consulta. | Experience Platform, Journey Optimizer, Customer Journey Analytics, etc. |
-| Sandbox | La zona protegida que contiene los conjuntos de datos o la información a la que pertenece su consulta. | Producción (VA7), Desarrollo |
+| Zona protegida | La zona protegida que contiene los conjuntos de datos o la información a la que pertenece su consulta. | Producción (VA7), Desarrollo |
 | Dataview | Cuando utiliza el asistente de IA con Customer Journey Analytics, la configuración de vista de datos ayuda a Data Insights Agent a comprender lo siguiente: <ul><li>Qué conjuntos de datos consultar</li><li>Qué componentes de datos están disponibles</li><li>Estructurar las respuestas sobre los datos</li><li>Qué visualizaciones crear en Analysis Workspace</li></ul> |
 
 ![Panel de &quot;Respuesta de&quot; donde se pueden configurar las fuentes de información.](./images/ai-assistant/inputs/answer-from.png)
@@ -226,7 +226,7 @@ El asistente de IA admite varios tipos de gráficos para la visualización de da
 
 >[!BEGINTABS]
 
->[!TAB Línea]
+>[!TAB Line]
 
 Para ver un gráfico de líneas, seleccione **[!UICONTROL Propiedades]** y luego seleccione **[!UICONTROL Línea]**.
 

@@ -4,7 +4,7 @@ description: Aprenda a utilizar Audience Agent para crear audiencias, ver cambio
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -161,7 +161,7 @@ Mostrar todas las audiencias que tengan las mismas reglas pero distintos destino
 
 +++
 
-## Pasos siguientes
+## Próximos pasos
 
 Después de leer esta guía, debería comprender mejor Audience Agent y qué funciones admite. Para obtener más información sobre los agentes de Adobe Experience Platform, lea la [descripción general de Agent Orchestrator](./agent-orchestrator.md).
 

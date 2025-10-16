@@ -4,7 +4,7 @@ description: Obtenga información sobre las exenciones de responsabilidad legale
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
@@ -14,7 +14,7 @@ Lea este documento para obtener información sobre las exenciones de responsabil
 
 ## Datos personales {#personal-data}
 
-El asistente de IA utiliza un bot de chat automatizado. El uso de este bot de chat automatizado constituye el consentimiento de que la información que proporcione en la sesión de chat será recopilada, utilizada, revelada y conservada por Adobe y los proveedores de servicios que actúen en nombre de Adobe de acuerdo con los términos del acuerdo entre su organización y Adobe.
+El asistente de IA usa un bot de chat automatizado. El uso que haga de este bot de chat automatizado confirma su consentimiento para que la información que proporcione en la sesión de chat sea recopilada, utilizada, divulgada y conservada por Adobe y los proveedores de servicios que actúen en representación de Adobe de conformidad con los términos del acuerdo entre su organización y Adobe.
 
 Si necesita incluir datos personales aquí, solo añada lo necesario y solo si tiene derecho a usarlos.
 

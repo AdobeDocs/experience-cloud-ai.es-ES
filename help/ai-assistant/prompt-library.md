@@ -4,7 +4,7 @@ description: Obtenga información acerca de los distintos tipos de indicadores y
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -61,25 +61,25 @@ Las siguientes indicaciones de ejemplo se pueden utilizar con Data Insights Agen
 
 Los siguientes indicadores de ejemplo se pueden utilizar con Journey Agent para ayudarle a analizar los ciclos de vida de los recorridos, administrar los recursos de los recorridos, obtener información sobre las relaciones entre audiencias y recorridos y detectar conflictos entre recorridos. Utilice estas indicaciones para optimizar la orquestación de recorrido y resolver los problemas de forma eficaz.
 
-### Preguntas del ciclo vital de recorrido
+### Preguntas sobre el ciclo de vida del recorrido
 
 - &quot;¿Cuándo se publicó {JOURNEY_NAME}?&quot;
 - &quot;¿Cuándo se detuvo {JOURNEY_NAME}?&quot;
 - &quot;Enumerar todos los recorridos que están actualmente en modo de prueba&quot;
 
-### Preguntas de recursos de recorrido
+### Preguntas sobre los recursos del recorrido
 
 - &quot;¿Cuántos recorridos de vida tengo?&quot;
 - &quot;Dame una lista de todos los recorridos recurrentes programados y sus tiempos de ejecución esperados&quot;.
 
-### Audience and Recorrido Insights
+### Información sobre el público y el recorrido
 
 - &quot;¿Qué audiencias se utilizan en más de X recorridos?&quot;
 - &quot;Enumerar todos los recorridos utilizando la audiencia {AUDIENCE_NAME}.&quot;
 
-### Indicadores de análisis de conflicto
+### Solicitudes de análisis de conflictos
 
-Utilice estos indicadores para analizar posibles conflictos entre recorridos, incluida la programación y las superposiciones de audiencias:
+Utilice estas solicitudes para analizar los posibles conflictos entre recorridos, incluidos los solapamientos de horarios y públicos:
 
 +++Seleccionar para ver la lista
 
