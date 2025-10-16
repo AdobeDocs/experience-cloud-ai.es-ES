@@ -18,7 +18,7 @@ ht-degree: 38%
 
 Journey Agent permitirá a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con Journey Agent, los profesionales pueden identificar y resolver rápidamente conflictos de programación o audiencia, detectar puntos de abandono de usuarios en un recorrido y proporcionar perspectivas o recomendaciones. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación del cliente y agilizar la orquestación del recorrido.
 
-Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/es/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
