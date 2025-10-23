@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
 description: Aprenda a utilizar Audience Agent para crear audiencias, ver cambios de audiencia, detectar audiencias duplicadas y ver perspectivas de audiencia.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: 2c50a4abaf9606e3c7887073053d0cde3ec761e5
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '859'
 ht-degree: 2%
 
 ---
@@ -25,47 +25,47 @@ Audience Agent le permite ver información sobre las audiencias, como la detecci
 
 El asistente de Audience Agent en IA es compatible con los siguientes casos de uso:
 
-- Busque el tamaño de su audiencia y detecte cambios significativos en el tamaño de la audiencia
-
+- Explorar la audiencia de forma conversacional
+   - Buscar tamaños de audiencia de audiencias existentes
+   - Busque audiencias basadas en atributos completos o parciales llamados
+   - Detección de audiencias duplicadas
+   - Descubra los campos XDM que puede utilizar para definir una audiencia
+- Detectar cambios significativos en el tamaño de la audiencia
    - Esto le permite encontrar audiencias que han crecido o disminuido de repente, lo que le permite analizar mejor los posibles cambios del mercado
 
-- Detección de audiencias duplicadas
-
-   - Esto permite reducir las redundancias con las audiencias creadas
-
-- Buscar audiencias en función de atributos completos o parciales llamados
-
-   - Esto permite navegar con mayor facilidad por el inventario de audiencias
-
-- Descubra los campos XDM que puede utilizar para definir una audiencia
-
-   - Esta aptitud le permite identificar con mayor facilidad los campos correctos para su audiencia en función del contexto y la relevancia
+<!-- - Find your audience size and detect significant changes in audience size
+  - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
+- Detect duplicate audiences
+  - This lets you reduce redundancies with your created audiences
+- Find audiences based on full or partial attributes named
+  - This lets you more easily navigate through your audience inventory
+- Discover XDM fields you can use to define an audience
+  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
 
 Audience Agent no **admite actualmente** las siguientes características:
 
 - Creación de audiencias basada en el conocimiento
-
    - La creación de audiencias basada en el conocimiento consiste en crear una audiencia basada en los atributos y eventos determinados
    - Además, puede estimar el tamaño potencial de la audiencia antes de la creación de la misma. Esto le permite iterar rápidamente en la audiencia más eficaz antes de que esté lista para activarse
    - La compatibilidad con esta función estará disponible próximamente
-
 - Exploración de audiencias basada en objetivos
-
    - La exploración de audiencias basada en objetivos permite descubrir conjuntos de datos y perfiles relevantes alineados con un objetivo empresarial mediante la aplicación de modelos de aprendizaje automático como la tendencia a comprar o convertir.
 
 Además, al utilizar Audience Agent, debe tener en cuenta las siguientes restricciones:
 
 - Audience Agent necesita al menos 24 horas para procesar sus datos
-
    - Por ejemplo, **no puede** tener una consulta que busque datos en las últimas 24 horas. Tendrá que mirar dentro de las últimas 48 horas, como mínimo.
-
-- Audience Agent solo admite audiencias basadas en **people** que se evalúan mediante la segmentación por lotes
+- Audience Agent solo admite los siguientes tipos de audiencia:
+   - **Audiencias basadas en personas** que se evalúan mediante la segmentación por lotes
+   - Audiencias **basadas en cuenta** para los siguientes casos de uso:
+      - Exploración de audiencia conversacional
+      - Detección de audiencia duplicada
 
 ## Ejemplos de peticiones de datos
 
 Los siguientes ejemplos muestran mensajes y respuestas de ejemplo para Audience Agent.
 
-### Exploración de audiencia de conversación
+### Exploración de audiencia conversacional
 
 Muéstrame campos para compradores adinerados.
 
@@ -88,6 +88,14 @@ Enumerar todas las audiencias que se han asignado a nuevos destinos en los últi
 +++ Respuesta
 
 ![El Asistente para IA enumera una audiencia que se ha asignado a un nuevo destino en los últimos tres meses.](./images/audience/new-destination.png)
+
++++
+
+¿Qué audiencia de cuenta tiene el tamaño de audiencia más grande y cuál es ese tamaño?
+
++++ Respuesta
+
+![El Asistente para IA muestra una tabla con las audiencias de cuenta más grandes.](./images/audience/largest-account-audience.png)
 
 +++
 
@@ -114,6 +122,14 @@ Mostrar todas las audiencias que tengan las mismas reglas pero distintos destino
 +++ Respuesta
 
 ![El Asistente de IA muestra que no hay definiciones de segmento duplicadas para diferentes destinos.](./images/audience/same-rules-different-destinations.png)
+
++++
+
+Identificar audiencias de cuenta que tienen las mismas reglas pero tienen nombres diferentes.
+
++++ Respuesta
+
+![El Asistente para IA muestra una tabla con los nombres e identificadores de audiencias de cuenta que comparten las mismas reglas de audiencia.](./images/audience/duplicate-account-audience.png)
 
 +++
 
