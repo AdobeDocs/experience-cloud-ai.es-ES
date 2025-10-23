@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Aprenda a utilizar Audience Agent para crear audiencias, ver cambios de audiencia, detectar audiencias duplicadas y ver perspectivas de audiencia.
-source-git-commit: 2c50a4abaf9606e3c7887073053d0cde3ec761e5
+source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 2%
@@ -20,6 +20,8 @@ ht-degree: 2%
 >**Administrar segmentos**: El permiso Para permite usar Audience Agent para crear nuevas audiencias directamente en el Ayudante de IA.
 
 Audience Agent le permite ver información sobre las audiencias, como la detección de cambios significativos en el tamaño de la audiencia, la detección de audiencias duplicadas, la exploración del inventario de audiencias y la recuperación del tamaño de las audiencias.
+
+>[!SLIDE](audience-agent-overview)
 
 ## Casos de uso admitidos
 

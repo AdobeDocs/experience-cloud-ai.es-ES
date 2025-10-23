@@ -1,7 +1,7 @@
 ---
 title: Guía de la interfaz de usuario del Asistente de IA
 description: Obtenga información sobre cómo acceder y utilizar el Asistente de IA en la interfaz de usuario.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 1%
@@ -15,6 +15,8 @@ El asistente de IA es una herramienta inteligente de IA conversacional y generat
 Lea esta guía para aprender a utilizar el Asistente para IA.
 
 ![Interfaz de inicio del Asistente de IA en pantalla completa.](./images/ai-assistant/blank-home.png)
+
+>[!SLIDE](agent-orchestrator-ui)
 
 ## Acceso al Asistente de IA
 
