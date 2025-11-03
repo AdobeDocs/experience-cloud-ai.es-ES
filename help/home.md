@@ -1,9 +1,9 @@
 ---
 title: IA en aplicaciones de Experience Cloud
 description: Descubra cómo las aplicaciones de Experience Cloud utilizan la IA generativa (GenAI), el asistente de IA y la IA agéntica.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 8c05562121071874002afd6d248f16186616da55
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '830'
 ht-degree: 13%
 
 ---
@@ -48,6 +48,8 @@ Audience Agent proporciona perspectivas sobre audiencias que incluyen:
 - Explorando el inventario de audiencias.
 - Recuperando tamaños de audiencia.
 
+Lea la [documentación de Audience Agent](./agents/audience.md) para obtener más información.
+
 #### Data Insights Agent
 
 Data Insights Agent, disponible en Customer Journey Analytics:
@@ -56,13 +58,15 @@ Data Insights Agent, disponible en Customer Journey Analytics:
 - Genera visualizaciones relevantes en Analysis Workspace.
 - Utiliza componentes de la vista de datos y datos reales.
 
-#### Journey Agent
+#### Agente de análisis de recorrido
 
-Journey Agent permite a los usuarios de Adobe Journey Optimizer lo siguiente:
+El agente de análisis de Recorrido permite a los usuarios de Adobe Journey Optimizer lo siguiente:
 
 - Analice y optimice los recorridos con lenguaje natural.
 - Detectar y resolver conflictos de programación o audiencia.
 - Analice el rendimiento y los puntos de entrega.
+
+Lea la [Documentación del agente de análisis de Recorrido](./agents/ajo-agent-analyze.md) para obtener más información.
 
 #### Agente de soporte del producto
 
@@ -71,6 +75,8 @@ Utilice el Agente de soporte del producto para la depuración de autoservicio y 
 - Solucionar problemas de funciones de Adobe Experience Platform sin abandonar los flujos de trabajo.
 - Cree vales de soporte con contexto a partir de las interacciones del asistente de IA.
 - Consulte las actualizaciones de tickets a través del asistente de IA.
+
+Lea la [Documentación del agente de soporte técnico](./agents/product-support.md) para obtener más información.
 
 ## Introducción
 
