@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo visualizar datos con Data Insights
 title: Visualización de datos con Data Insights Agent en Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: 0e366e182cfccf2c081f6e5689c02b650148a7b9
+source-git-commit: 04a73ac0f705cd3a2184fb2f8599aff85b7bb5e5
 workflow-type: tm+mt
-source-wordcount: '2497'
+source-wordcount: '2499'
 ht-degree: 5%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->Data Insights Agent está disponible para los clientes elegibles durante un tiempo limitado. El acceso a Data Insights Agent finalizará el 28 de febrero de 2026. Para seguir utilizando Data Insights Agent sin interrupciones, póngase en contacto con el representante de su cuenta de Adobe para obtener más información sobre las licencias de Data Insights Agent.
+>Data Insights Agent está disponible para los clientes elegibles durante un tiempo limitado. El acceso a Data Insights Agent está disponible hasta el 28 de febrero de 2026. Para seguir utilizando Data Insights Agent sin interrupciones, póngase en contacto con el representante de su cuenta de Adobe para obtener más información sobre las licencias de Adobe Experience Platform Agent Orchestrator.
 
-Data Insights Agent, al que se puede acceder desde el [Asistente de IA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) de Customer Journey Analytics, es un agente de conversación de IA generativo que responde de forma rápida y eficaz a las preguntas sobre sus datos. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y sus datos reales.
+Data Insights Agent, al que se puede acceder desde el [Asistente de IA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) de Customer Journey Analytics, es un agente de conversación de IA generativo que responde de forma rápida y eficaz a las preguntas sobre sus datos. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y sus datos reales.
 
 El uso de Data Insights Agent para responder preguntas centradas en los datos en Analysis Workspace puede ahorrar incontables horas que, de lo contrario, podría dedicar a la creación manual de visualizaciones en Analysis Workspace y a familiarizarse con los componentes de las vistas de datos.
 
@@ -71,7 +71,7 @@ Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Jou
 
    1. Seleccione **[!UICONTROL Guardar]** para guardar los permisos.
 
-  Para obtener información adicional sobre el control de acceso, consulte [Control de acceso](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/access-control#access-control).
+  Para obtener información adicional sobre el control de acceso, consulte [Control de acceso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Acceso a vista de datos**: las vistas de datos deben habilitarse para Data Insights Agent.
 
@@ -254,7 +254,7 @@ A continuación se describen las prácticas recomendadas para la configuración 
 
 >[!MORELIKETHIS]
 >
->[Configuración de componentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Diccionario de datos &#x200B;](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Aprobar métrica calculada](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Compartir segmentos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Configuración de componentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Diccionario de datos ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Aprobar métrica calculada](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Compartir segmentos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
