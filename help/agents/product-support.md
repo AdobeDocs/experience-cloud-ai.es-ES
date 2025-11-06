@@ -1,9 +1,9 @@
 ---
 title: Agente de soporte del producto
 description: Aprenda cómo puede utilizar el agente de soporte de productos en el asistente de IA para optimizar la resolución de problemas y el proceso de archivado de tickets de asistencia al cliente.
-source-git-commit: 8c05562121071874002afd6d248f16186616da55
+source-git-commit: adf65e0d4c623fbd74645006939702b64b0c1fdd
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '408'
 ht-degree: 5%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->**Acceso por tiempo limitado**: Esperamos que disfrute usando el Agente de soporte técnico. El acceso a esta capacidad finalizará el 28 de febrero de 2026. Para seguir utilizando el Agente de soporte de productos sin interrupciones, póngase en contacto con el representante de su cuenta de Adobe para obtener más información sobre las licencias del Agente de soporte de productos.
+>El agente de asistencia del producto está disponible para los clientes elegibles durante un tiempo limitado. El acceso al Agente de soporte técnico del producto finalizará el 28 de febrero de 2026. Para seguir usando el Agente de soporte de productos más allá de esta fecha sin interrupciones, póngase en contacto con el representante de su cuenta de Adobe para obtener más información sobre las licencias de Adobe Experience Platform Agent Orchestrator.
 
 El Agente de soporte del producto es una capacidad de depuración y solución de problemas de autoservicio del Asistente de IA que puede utilizar para funciones y aplicaciones de Adobe Experience Platform.
 
@@ -61,5 +61,5 @@ Una vez completados estos pasos, los administradores de asistencia de su organiz
 
 Para obtener más información, vea el siguiente vídeo para aprender cómo puede utilizar el Agente de soporte de productos para solucionar problemas sin tener que abandonar los flujos de trabajo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443186?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
