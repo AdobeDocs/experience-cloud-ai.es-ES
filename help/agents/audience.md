@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
 description: Aprenda a utilizar Audience Agent para crear audiencias, ver cambios de audiencia, detectar audiencias duplicadas y ver perspectivas de audiencia.
-source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
+source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,9 @@ El asistente de Audience Agent en IA es compatible con los siguientes casos de u
    - Descubra los campos XDM que puede utilizar para definir una audiencia
 - Detectar cambios significativos en el tamaño de la audiencia
    - Esto le permite encontrar audiencias que han crecido o disminuido de repente, lo que le permite analizar mejor los posibles cambios del mercado
+- Creación de públicos
+   - Esta aptitud le permite crear una audiencia basada en los atributos y eventos determinados
+   - Además, esta aptitud le permite calcular el tamaño potencial de una audiencia antes de crearla, lo que le permite iterar rápidamente en la audiencia más eficaz antes de que esté lista para activarse
 
 <!-- - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
@@ -44,12 +47,8 @@ El asistente de Audience Agent en IA es compatible con los siguientes casos de u
 - Discover XDM fields you can use to define an audience
   - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
 
-Audience Agent no **admite actualmente** las siguientes características:
+Audience Agent no **admite actualmente** la siguiente característica:
 
-- Creación de audiencias basada en el conocimiento
-   - La creación de audiencias basada en el conocimiento consiste en crear una audiencia basada en los atributos y eventos determinados
-   - Además, puede estimar el tamaño potencial de la audiencia antes de la creación de la misma. Esto le permite iterar rápidamente en la audiencia más eficaz antes de que esté lista para activarse
-   - La compatibilidad con esta función estará disponible próximamente
 - Exploración de audiencias basada en objetivos
    - La exploración de audiencias basada en objetivos permite descubrir conjuntos de datos y perfiles relevantes alineados con un objetivo empresarial mediante la aplicación de modelos de aprendizaje automático como la tendencia a comprar o convertir.
 
@@ -178,6 +177,80 @@ Identificar audiencias de cuenta que tienen las mismas reglas pero tienen nombre
 ![El Asistente para IA indica el nombre de la audiencia que crece más rápido, así como el tamaño actual y el porcentaje de crecimiento.](./images/audience/fastest-growing.png)
 
 +++
+
+### Crear un público
+
+Al crear una audiencia con Audience Agent, el asistente de IA le guiará a través de un plan. Por ejemplo, puede pedir que &quot;se cree una audiencia compuesta por personas que viven en California&quot;. A continuación, AI Assistant enumera el plan que llevará a cabo para crear la audiencia.
+
++++ Respuesta
+
+![El Asistente para IA muestra el plan para crear una audiencia.](./images/audience/audience-create-plan.png)
+
++++
+
+Este plan consta de tres pasos:
+
+1. [Identificación de características de audiencia](#identify)
+2. [Calcular tamaño de audiencia](#estimate)
+3. [Creación y persistencia de una nueva audiencia](#create)
+
+#### Identificación de características de audiencia {#identify}
+
+![Paso 1 del plan, que consiste en identificar las características de la audiencia.](./images/audience/plan-step-1.png){align="center" width="80%"}
+
+Después de aceptar el plan, el asistente de IA recopilará las características de la audiencia en función de su consulta inicial.
+
++++ Respuesta
+
+![Definición de audiencia basada en la consulta del usuario.](./images/audience/audience-create-definition.png)
+
+Para esta consulta, AI Assistant genera el Profile Query Language (PQL) relevante que buscaría personas que viven en California. En este caso de uso, la consulta de PQL tendría el siguiente aspecto:
+
+```sql
+homeAddress.state.equals("California", false)
+```
+
+Para obtener más información sobre PQL, lea la [descripción general de PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
+
++++
+
+Si la definición de audiencia del asistente de IA es correcta, puede aprobarla y pasar al siguiente paso.
+
+#### Calcular tamaño de audiencia {#estimate}
+
+![Paso 2 del plan, que es estimar el tamaño de la audiencia potencial.](./images/audience/plan-step-2.png){align="center" width="80%"}
+
+Después de aprobar las características de audiencia identificadas, el asistente de IA calculará el tamaño de la audiencia potencial y los detalles de definición de audiencia.
+
++++ Respuesta
+
+![Se muestra la estimación de muestra de la audiencia potencial. Se muestran el tamaño estimado y la definición del segmento.](./images/audience/audience-create-estimate.png)
+
++++
+
+Si el tamaño estimado parece correcto, puede aprobarlo y pasar al siguiente paso.
+
+#### Crear y mantener nueva audiencia {#create}
+
+![Paso 3 del plan, que es terminar de crear la audiencia.](./images/audience/plan-step-3.png){align="center" width="80%"}
+
+Por último, si las características y el tamaño de la audiencia parecen correctos, puede aprobar o rechazar la creación de la audiencia.
+
++++ Respuesta
+
+En primer lugar, puede revisar la audiencia propuesta a través de la cuadrícula de datos proporcionada.
+
+![Se muestra la pantalla de revisión.](./images/audience/audience-create-review.png)
+
+Si la audiencia tiene el aspecto correcto, puede aceptar la propuesta seleccionando **[!UICONTROL Crear]** para finalizar la creación de la audiencia.
+
+![Se muestra la propuesta completa para la audiencia.](./images/audience/audience-create-proposal.png)
+
++++
+
+Se crea la audiencia.
+
+![Se aceptó la propuesta de audiencia y se creó la audiencia.](./images/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## Próximos pasos
 
