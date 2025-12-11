@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
 description: Aprenda a utilizar Audience Agent para crear audiencias, ver cambios de audiencia, detectar audiencias duplicadas y ver perspectivas de audiencia.
-source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
+source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1229'
 ht-degree: 2%
 
 ---
@@ -180,6 +180,10 @@ Identificar audiencias de cuenta que tienen las mismas reglas pero tienen nombre
 
 ### Crear un público
 
+>[!AVAILABILITY]
+>
+>Solo puede utilizar la habilidad Crear audiencia si forma parte del programa Explorador de Agent Orchestrator. Para obtener más información, póngase en contacto con el Servicio de atención al cliente de Adobe.
+
 Al crear una audiencia con Audience Agent, el asistente de IA le guiará a través de un plan. Por ejemplo, puede pedir que &quot;se cree una audiencia compuesta por personas que viven en California&quot;. A continuación, AI Assistant enumera el plan que llevará a cabo para crear la audiencia.
 
 +++ Respuesta
@@ -210,7 +214,7 @@ Para esta consulta, AI Assistant genera el Profile Query Language (PQL) relevant
 homeAddress.state.equals("California", false)
 ```
 
-Para obtener más información sobre PQL, lea la [descripción general de PQL](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/pql/overview).
+Para obtener más información sobre PQL, lea la [descripción general de PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
