@@ -26,7 +26,7 @@ Los siguientes permisos para utilizar completamente las funciones de Experimenta
 
 * **Administrar metadatos de experimento**: este permiso le permite usar el agente de experimentación para crear nuevos experimentos directamente en el asistente de IA.
 
-➡️ [Obtenga más información en la documentación de Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [Obtenga más información en la documentación de Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/es/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Como parte de la función de Experimentation Accelerator, el agente proporciona lo siguiente:
 
