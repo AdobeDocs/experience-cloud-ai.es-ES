@@ -22,9 +22,9 @@ Journey Agent consta de dos habilidades principales:
 - **Agente de creación de Recorrido**: cree y configure recorridos de marketing mediante mensajes en lenguaje natural
 - **Agente de análisis de Recorrido**: Analice recorridos, detecte problemas, descubra información y optimice la participación del cliente
 
----
+&#x200B;---
 
-# Recorrido Crear agente: descripción general de aptitudes y guía del usuario
+&#x200B;# Recorrido Crear agente: descripción general de aptitudes y guía del usuario
 
 ## Información general
 
@@ -161,9 +161,9 @@ Cuando un usuario entre en mi ubicación de tienda, enviar un mensaje de bienven
 - **Planificar contenido del mensaje**: Defina su estrategia de mensajería antes de crear el recorrido.
 - **Tenga en cuenta la experiencia del cliente**: Diseñe flujos de recorrido que respeten las preferencias del cliente y eviten la comunicación excesiva.
 
----
+&#x200B;---
 
-# Agente de análisis de recorrido: información general de aptitudes y guía del usuario
+&#x200B;# Agente de análisis de recorrido: información general de aptitudes y guía del usuario
 
 ## Información general
 
@@ -311,7 +311,7 @@ Para maximizar la eficacia de análisis de Journey Agent, siga estas prácticas 
 - **Monitorice de forma periódica**: programe revisiones periódicas del rendimiento de los recorridos para identificar las tendencias y las anomalías.
 - **Optimice la segmentación**: asegúrese de que la segmentación del público está equilibrada para evitar la fatiga y maximizar la participación.
 
----
+&#x200B;---
 
 ## Diapositivas y presentaciones
 
