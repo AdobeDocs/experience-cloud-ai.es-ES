@@ -1,9 +1,9 @@
 ---
 title: IA en aplicaciones de Experience Cloud
 description: Descubra cómo las aplicaciones de Experience Cloud utilizan la IA generativa (GenAI), el asistente de IA y la IA agéntica.
-source-git-commit: 8c05562121071874002afd6d248f16186616da55
+source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 13%
 
 ---
@@ -66,7 +66,7 @@ El agente de análisis de Recorrido permite a los usuarios de Adobe Journey Opti
 - Detectar y resolver conflictos de programación o audiencia.
 - Analice el rendimiento y los puntos de entrega.
 
-Lea la [Documentación del agente de análisis de Recorrido](./agents/ajo-agent-analyze.md) para obtener más información.
+Lea la [documentación de Journey Agent](./agents/ajo-agent.md) para obtener más información.
 
 #### Agente de soporte del producto
 
