@@ -25,7 +25,7 @@ ht-degree: 2%
 
 Adobe determinará su idoneidad para el periodo de prueba a su criterio. Los clientes que actualmente tengan o hayan tenido una licencia de Promoción de Adobe Experience Platform Agent Orchestrator o una licencia de Créditos de IA de agentes de Experience Platform no son aptos para la versión de prueba.
 
-Los clientes aptos reciben un derecho único inicial de hasta 10 000 créditos de IA para utilizar en cualquier combinación de trabajos (según las licencias existentes para las aplicaciones de Experience Cloud) enumerados en la tabla de consumo de crédito de AI. Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Los clientes aptos reciben un derecho único inicial de hasta 10 000 créditos de IA para utilizar en cualquier combinación de trabajos (según las licencias existentes para las aplicaciones de Experience Cloud) enumerados en la tabla de consumo de crédito de AI. Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
