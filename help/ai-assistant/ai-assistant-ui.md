@@ -1,7 +1,7 @@
 ---
 title: Guía de la interfaz de usuario del Asistente de IA
 description: Obtenga información sobre cómo acceder y utilizar el Asistente de IA en la interfaz de usuario.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 0e7306c50fbb6913bfd08d9d31484ec1690be91d
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 1%
@@ -72,7 +72,7 @@ La vista de carril proporciona acceso rápido al chat, las peticiones de informa
 
 Esta sección proporciona información general sobre las principales funciones y opciones de navegación de la interfaz de usuario del asistente de IA. Explica cómo acceder al Asistente de IA, describe el diseño y los controles tanto en la pantalla completa como en las vistas de carril, e introduce herramientas clave como conversaciones, funciones de entrada, autocompletar, configuración de contexto y peticiones de información. Las siguientes secciones ofrecen instrucciones detalladas sobre el uso de estas funciones para interactuar con el asistente de IA y sacar el máximo partido de la experiencia.
 
-### Mensajes de detección
+### Mensajes de detección {#discovery-prompts}
 
 Puede utilizar la función de descubrimiento del asistente de IA para ver una lista de los temas generales, agrupados en entidades, que admite el asistente de IA. Las solicitudes de detección son diferentes en función del punto de inicio.
 
