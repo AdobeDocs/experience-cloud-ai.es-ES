@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Adobe determinará su idoneidad para el periodo de prueba a su criterio. Los clientes que actualmente tengan o hayan tenido una licencia de Promoción de Adobe Experience Platform Agent Orchestrator o una licencia de Créditos de IA de agentes de Experience Platform no son aptos para la versión de prueba.
 
-Los clientes elegibles reciben un derecho único inicial de hasta 10 000 créditos de IA para usar en cualquier combinación de trabajos (según las licencias existentes para las aplicaciones de Experience Cloud) enumerados en la [Tabla de consumo de crédito de IA](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Los clientes elegibles reciben un derecho único inicial de hasta 10 000 créditos de IA para usar en cualquier combinación de trabajos (según las licencias existentes para las aplicaciones de Experience Cloud) enumerados en la [Tabla de consumo de crédito de IA](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -69,7 +69,7 @@ La versión de prueba no requiere ninguna compra adicional. No hay conversión a
 
 ### ¿Quién puede ver el uso y cómo?
 
-Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage).
 
 Utilice el panel para ver el uso de los créditos de IA y los informes. Solo los administradores y usuarios con los permisos adecuados pueden ver la información de uso.
 
