@@ -4,10 +4,10 @@ description: Guía completa de Journey Agent, que permite a los usuarios crear, 
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 229d349d971ffaba3f2f2fb989e363d96a8d7a70
+source-git-commit: aba0b2f7f819f762c336c4dfeb952326a0814800
 workflow-type: tm+mt
-source-wordcount: '2147'
-ht-degree: 18%
+source-wordcount: '2608'
+ht-degree: 14%
 
 ---
 
@@ -18,19 +18,21 @@ ht-degree: 18%
 
 Journey Agent permite a los usuarios de Journey Optimizer crear, analizar y optimizar recorridos de marketing mediante una interfaz de lenguaje natural. Con Journey Agent, los profesionales pueden crear recorridos rápidamente, detectar y resolver conflictos de programación o público, analizar el rendimiento y los puntos de abandono, e identificar los recorridos de mayor rendimiento para replicarlos en futuras campañas. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación de los clientes y optimizar la organización de recorridos.
 
-Journey Agent consta de dos habilidades principales:
-- **Agente de creación de Recorrido**: cree y configure recorridos de marketing mediante mensajes en lenguaje natural
-- **Agente de análisis de Recorrido**: Analice recorridos, detecte problemas, descubra información y optimice la participación del cliente
+Journey Agent consta de tres tareas principales que se deben realizar:
 
-## Recorrido Crear agente: descripción general de aptitudes y guía del usuario
+- **Creación de Recorrido**: cree y configure recorridos de marketing mediante mensajes en lenguaje natural
+- **Creación de contenido de canal**: genera, edita y administra contenido específico del canal (correo electrónico, push, SMS) para recorridos mediante la generación de contenido con tecnología de IA
+- **Análisis de Recorrido**: Analice recorridos, detecte problemas, descubra información y optimice la participación de los clientes
+
+## Recorrido Crear: Casos de uso, Aptitudes de agente y Guía del usuario
 
 ## Información general
 
-Recorrido Crear agente permite a los usuarios de Journey Optimizer crear y configurar recorridos de marketing mediante una interfaz de lenguaje natural. Con Recorrido Crear agente, los profesionales pueden crear recorridos rápidamente al describir sus necesidades en mensajes de conversación. El agente optimiza la creación de recorridos, lo que permite a los especialistas en marketing centrarse en la estrategia en lugar de en la configuración técnica.
+Recorrido Crear permite a los usuarios de Journey Optimizer crear y configurar recorridos de marketing mediante una interfaz de lenguaje natural. Con Recorrido Crear, los profesionales pueden crear recorridos rápidamente al describir sus necesidades en mensajes de conversación. El agente optimiza la creación de recorridos, lo que permite a los especialistas en marketing centrarse en la estrategia en lugar de en la configuración técnica.
 
 >[!AVAILABILITY]
 >
->El agente de creación de Recorrido está disponible para todos los clientes que tienen acceso al asistente de IA. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de Recorrido de Crear agente:
+>La opción Crear recorrido está disponible para todos los clientes que tienen acceso al asistente de IA. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de creación de Recorridos:
 >
 >**Administrar Recorridos**: este permiso le permite crear nuevos recorridos directamente en el Asistente para IA.
 >
@@ -42,9 +44,9 @@ Recorrido Crear agente permite a los usuarios de Journey Optimizer crear y confi
 
 ## Casos de uso
 
-### Casos de uso clave para el Recorrido Crear agente
+### Casos de uso clave para la creación de Recorridos
 
-La aptitud del Recorrido Crear agente ofrece funcionalidades que se pueden aprovechar para acelerar la ejecución del marketing:
+Recorrido Cree ofertas que se puedan aprovechar para acelerar la ejecución del marketing:
 
 1. **Creación de recorrido desencadenada por eventos**
 
@@ -78,7 +80,7 @@ Para cada uno de estos casos de uso, el agente traduce los requisitos del lengua
 
 ### **En ámbito**
 
-El Recorrido Crear agente admite las siguientes funciones:
+Recorrido Crear admite las siguientes funciones:
 
 - **Creación de recorridos en lenguaje natural**: permite a los usuarios describir el flujo de recorrido en lenguaje conversacional.
 - **recorridos basados en eventos y en audiencias**: admite tipos de recorridos programados y basados en déclencheur, así como eventos comerciales y calificación de audiencias.
@@ -95,7 +97,6 @@ Actualmente no se admiten las siguientes funcionalidades:
 - **Organización entre recorridos**
 - **Configuración de prueba A/B**
 - **Transformaciones de datos complejas**
-- **Creación de mensaje de contenido**
 
 ## Ejemplos de peticiones de datos
 
@@ -141,7 +142,7 @@ El agente le proporcionará instrucciones y ejemplos para ayudarle a definir los
 
 ### Impulso de las prácticas recomendadas
 
-Para maximizar la eficacia de Crear agente de Recorrido, siga estas prácticas recomendadas:
+Para maximizar la eficacia de Creación de Recorridos, siga estas prácticas recomendadas:
 
 1. **Sea específico**: Proporcione detalles claros sobre sus objetivos de recorrido, audiencia de destinatario y acciones deseadas. Incluya información sobre canales, temporización y condiciones.
 1. **Especificar tiempo**: indique claramente los períodos de espera entre las acciones y cuándo debe iniciarse el recorrido.
@@ -159,13 +160,95 @@ Cuando un usuario entre en mi ubicación de tienda, enviar un mensaje de bienven
 - **Planificar contenido del mensaje**: Defina su estrategia de mensajería antes de crear el recorrido.
 - **Tenga en cuenta la experiencia del cliente**: Diseñe flujos de recorrido que respeten las preferencias del cliente y eviten la comunicación excesiva.
 
-## Agente de análisis de recorrido: información general de aptitudes y guía del usuario
+## Creación de contenido de canal: casos de uso, habilidades de agente y guía del usuario
+
+>[!AVAILABILITY]
+>
+>Esta función está disponible para todos los clientes con disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+
+## Información general
+
+La creación de contenido de canal permite a los usuarios de Journey Optimizer generar, editar y administrar contenido específico del canal para recorridos mediante la generación de contenido con tecnología de IA.
+
+## Casos de uso
+
+### Casos de uso clave para la creación de contenido de canal
+
+1. **Generación de contenido específico del canal**: genere contenido para correo electrónico, notificaciones push, SMS y otros canales mediante mensajes en lenguaje natural.
+
+1. **Creación de contenido basado en plantillas**: busca y selecciona entre las plantillas disponibles con capacidades de vista previa.
+
+1. **Administración de contenido multicanal**: genera y administra contenido para varios canales dentro del mismo flujo de trabajo de recorrido.
+
+1. **Edición de contenido en contexto**: abra el contenido generado en Content Designer para editarlo y refinarlo.
+
+1. **Refinamiento e iteración del contenido**: Regenera el contenido con diferentes tonos o estilos mediante la acción Regenerar.
+
+1. **Integración de lienzo de Recorrido**: seleccione recorridos del inventario y vea los canales asociados.
+
+## Aptitudes dentro y fuera del ámbito
+
+### **En ámbito**
+
+Las siguientes funciones son compatibles con la creación de contenido de canal:
+
+- **Generación de contenido con tecnología de IA**: genera contenido para correo electrónico, push, SMS y otros canales mediante mensajes en lenguaje natural.
+- **Administración de plantillas**: busca y selecciona entre las plantillas disponibles con capacidades de vista previa.
+- **Edición en contexto**: abra el contenido generado en Content Designer para editarlo y refinarlo.
+- **Regeneración de contenido**: Regenera el contenido con diferentes tonos, estilos o mensajes mediante la acción Regenerar.
+- **Compatibilidad con varios canales**: genere y administre contenido para varios canales dentro del mismo flujo de trabajo de recorrido.
+- **acceso al inventario de Recorridos**: seleccione recorridos del inventario y vea los canales asociados.
+
+### **Fuera de ámbito**
+
+Actualmente no se admiten las siguientes funcionalidades:
+
+- **Alineación de marca y comprobaciones de calidad del contenido**
+- **Insertar nodos de contenido directamente en el lienzo de recorrido**
+- **Importación de plantilla**
+
+## Ejemplos de peticiones de datos
+
+### Generación de contenido
+
+&quot;Generar contenido de correo electrónico para mi recorrido de bienvenida. Cree un correo electrónico de bienvenida para nuevos clientes con un tono cordial e incluya una oferta de descuento del 10 %&quot;.
+
+&quot;Agregar contenido para el correo electrónico del canal para mi recorrido de bienvenida&quot;.
+
+&quot;Generar una notificación push para el recorrido de mi visita a la tienda. Cree un mensaje de bienvenida que anime a los clientes a registrarse y recibir una oferta especial&quot;.
+
+&quot;Generar contenido SMS para mi recorrido activado por eventos. Cree un mensaje corto para notificar a los clientes sobre una venta flash con un call-to-action&quot;.
+
+### Selección de plantilla
+
+&quot;Mostrarme las plantillas de correo electrónico disponibles para mi recorrido de campaña de temporada&quot;.
+
+&quot;Seleccione una plantilla para mi correo electrónico que tenga un diseño moderno y limpio.&quot;
+
+### Edición y refinamiento de contenido
+
+&quot;Abra el contenido del correo electrónico en Content Designer para poder personalizar el diseño&quot;.
+
+&quot;Regenerar el contenido de las notificaciones push con un tono más informal&quot;.
+
+&quot;Actualice el contenido del correo electrónico para incluir un código promocional.&quot;
+
+## Prácticas recomendadas
+
+### Impulso de las prácticas recomendadas
+
+1. **Sea específico**: Proporcione detalles claros sobre el tipo de contenido, el tono, la audiencia de destino y los mensajes clave.
+1. **Especificar canal**: indique claramente para qué canal está creando contenido (correo electrónico, push, SMS).
+1. **Definir tono**: especifique el tono deseado (cordial, formal, informal, urgente).
+1. **Iterar y refinar**: use la acción de regeneración para refinar el contenido hasta que cumpla con sus requisitos.
+
+## Análisis de recorrido: casos de uso, habilidades de agente y guía del usuario
 
 ## Información general
 
 Journey Agent permitirá a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con Journey Agent, los profesionales pueden identificar y resolver rápidamente conflictos de programación o audiencia, detectar puntos de abandono de usuarios en un recorrido y proporcionar perspectivas o recomendaciones. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación del cliente y agilizar la orquestación del recorrido.
 
-Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/es/slides/journey-agent-overview).
+Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -183,9 +266,9 @@ Obtenga más información y descubra el agente rápidamente en esta [descripció
 
 ## Casos de uso
 
-### Principales casos de uso de análisis de Journey Agent
+### Casos clave de uso para el análisis de Recorrido
 
-La capacidad de análisis de Journey Agent ofrece una serie de funcionalidades que pueden aprovecharse para optimizar los esfuerzos de marketing:
+El análisis de recorrido ofrece una serie de funcionalidades que se pueden aprovechar para optimizar los esfuerzos de marketing:
 
 1. **Análisis del abandono del recorrido**
 
@@ -215,7 +298,7 @@ Para cada uno de estos análisis, el agente no solo detecta problemas, sino que 
 
 ### **Ámbito de aplicación**
 
-Las siguientes funcionalidades son compatibles con el análisis de Journey Agent:
+El análisis de Recorrido admite las siguientes funciones:
 
 - **Consultas reactivas**: permite a los usuarios hacer preguntas específicas sobre el rendimiento del recorrido, el uso del público y los conflictos de programación.
 - **Integración con otros agentes**: colabora con Audience Agent y Data Insights Agent para un análisis más profundo.
@@ -295,7 +378,7 @@ Utilice estas solicitudes para analizar los posibles conflictos entre recorridos
 
 ### Prácticas recomendadas en materia de solicitudes
 
-Para maximizar la eficacia de análisis de Journey Agent, siga estas prácticas recomendadas:
+Para maximizar la eficacia del análisis de Recorrido, siga estas prácticas recomendadas:
 
 1. **Sea específico**: utilice preguntas claras y concisas para obtener información específica. Por ejemplo, en lugar de preguntar &quot;¿Cuáles son mis recorridos?&quot;, especifique &quot;Enumerar todos los recorridos creados en el último mes&quot;.
 1. **Combine información**: integre la información de Audience Agent y Data Insights Agent para obtener una visión integral del rendimiento del recorrido.
