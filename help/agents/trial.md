@@ -16,7 +16,7 @@ ht-degree: 1%
 
 El siguiente vídeo tiene como objetivo ayudarle a comprender el periodo de prueba de los agentes de Adobe Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480231?captions=spa&learn=on)
 
 ## ¿Qué hay disponible con la versión de prueba?
 
