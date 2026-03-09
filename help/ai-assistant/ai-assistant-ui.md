@@ -1,14 +1,28 @@
 ---
 title: Guía de la interfaz de usuario del Asistente de IA
-description: Obtenga información sobre cómo acceder y utilizar el Asistente de IA en la interfaz de usuario.
-source-git-commit: 0e7306c50fbb6913bfd08d9d31484ec1690be91d
+description: Obtenga información sobre cómo acceder al Asistente de IA y utilizarlo en la interfaz de usuario.
+source-git-commit: 434f438eca130ca76e5303ac7040082daaf46bc8
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 1%
+source-wordcount: '2093'
+ht-degree: 2%
 
 ---
 
 # Asistente de IA
+
+>[!IMPORTANT]
+>
+>Este documento se aplica a AI Assistant (Next-Gen). Para obtener información sobre el asistente de IA (heredado), lea la [guía de la interfaz de usuario del asistente de IA](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home) en la documentación de Adobe Experience Platform.
+
+Consulte la siguiente tabla para ver una comparación de AI Assistant (Legacy) y AI Assistant (Next-Gen):
+
+| Área de funciones | Asistente de IA (heredado) | Asistente de IA (próxima generación) |
+| --- | --- | --- |
+| Experiencia del usuario | El asistente de IA (heredado) solo está disponible en un panel del carril derecho. | El asistente de IA (próxima generación) está disponible tanto en el panel derecho como en la experiencia de pantalla completa envolvente. |
+| Ámbito de las capacidades | Puede utilizar el asistente de IA (heredado) para obtener conocimientos del producto y perspectivas operativas. | Puede utilizar el asistente de IA (próxima generación) para obtener conocimientos del producto, perspectivas operativas, así como habilidades agénticas avanzadas y ejecución de tareas de varios pasos. |
+| Arquitectura de plataforma | El asistente de IA (heredado) no se crea en la pila de Agent Orchestrator. | El Asistente de IA (próxima generación) cuenta con la tecnología [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), lo que permite la extensibilidad y la coordinación avanzada entre las distintas funcionalidades. |
+| Cobertura de aplicación | El asistente de IA (heredado) es una implementación específica de la aplicación. | Puede utilizar el asistente de IA (próxima generación) para obtener una experiencia de asistente de IA unificada en todas las aplicaciones de Adobe Experience Cloud. |
+| Modelo de acceso y permiso | Modelo de acceso con ámbito de aplicación alineado con los límites de cada producto. | Todos los usuarios tienen acceso al asistente de IA (próxima generación) y a los agentes de Experience Platform asociados. **Nota**: <ul><li>**Adobe Experience Manager**: el administrador debe concederle permiso para acceder al Asistente de IA (próxima generación) a través de [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: el administrador debe concederle permiso para acceder al Asistente de IA a través de [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en). Esto le permite hacer preguntas sobre el conocimiento del producto y las perspectivas de datos. |
 
 El asistente de IA es una herramienta inteligente de IA conversacional y generativa que impulsará la productividad y redefinirá el trabajo en aplicaciones basadas en Adobe Experience Platform. Puede utilizar el Asistente de IA para acceder a los agentes de Adobe Experience Platform y otras funciones de IA.
 
