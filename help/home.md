@@ -1,10 +1,10 @@
 ---
 title: IA en aplicaciones de Experience Cloud
 description: Descubra cómo las aplicaciones de Experience Cloud utilizan la IA generativa (GenAI), el asistente de IA y la IA agéntica.
-source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
+source-git-commit: 73d63e310783310d0e6fb3d696ded7d4edb5bede
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 13%
+source-wordcount: '902'
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ Le damos la bienvenida a la guía completa para las funcionalidades de IA en tod
 
 ### Agent Orchestrator
 
-[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) es la nueva capa agéntica de Adobe Experience Platform. Diseñado para aprovechar los abundantes datos y el conocimiento de los clientes de la plataforma, Experience Platform Agent Orchestrator potencia la inteligencia y el razonamiento que hay detrás de los agentes expertos de Adobe Experience Platform creados específicamente, lo que les permite ejecutar tareas complejas de toma de decisiones y resolución de problemas con rapidez y a gran escala, todo ello con supervisión humana. Cuando formula preguntas o solicita ayuda a través del lenguaje natural en una interfaz conversacional como el Asistente de IA, Agent Orchestrator llama automáticamente a agentes especializados para que le den las respuestas correctas. Agent Orchestrator recuerda el historial de sus conversaciones, lo que le permite basarse en preguntas anteriores de forma natural sin repetir el contexto, y combina las perspectivas de varios agentes para presentarle respuestas claras y unificadas.
+[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) es la nueva capa agéntica de Adobe Experience Platform. Diseñado para aprovechar los abundantes datos y el conocimiento de los clientes de la plataforma, Experience Platform Agent Orchestrator potencia la inteligencia y el razonamiento que hay detrás de los agentes expertos de Adobe Experience Platform creados específicamente, lo que les permite ejecutar tareas complejas de toma de decisiones y resolución de problemas con rapidez y a gran escala, todo ello con supervisión humana. Cuando formula preguntas o solicita ayuda a través del lenguaje natural en una interfaz conversacional como el Asistente de IA, Agent Orchestrator llama automáticamente a agentes especializados para que le den las respuestas correctas. Agent Orchestrator recuerda el historial de sus conversaciones, lo que le permite basarse en preguntas anteriores de forma natural sin repetir el contexto, y combina la información de varios agentes para presentarle respuestas claras y unificadas.
 
 **Componentes principales:**
 
@@ -77,6 +77,16 @@ Utilice el Agente de soporte del producto para la depuración de autoservicio y 
 - Consulte las actualizaciones de tickets a través del asistente de IA.
 
 Lea la [Documentación del agente de soporte técnico](./agents/product-support.md) para obtener más información.
+
+#### Adobe Marketing Agent para [!DNL Microsoft 365 Copilot]
+
+Use Adobe Marketing Agent para [!DNL Microsoft 365 Copilot] con el fin de recuperar información de marketing de Experience Platform en aplicaciones de [!DNL Microsoft 365] como [!DNL Teams], [!DNL Word], [!DNL Powerpoint] y [!DNL Excel]. Con este agente, puede:
+
+- Tome decisiones de marketing más rápidas y basadas en datos.
+- Reduzca el tiempo invertido en cambiar entre herramientas.
+- Simplifique el acceso a las perspectivas de audiencia y recorrido entre equipos.
+
+Lea la [documentación de Adobe Marketing Agent](./agents/ama-ms.md) para obtener más información.
 
 ## Introducción
 
