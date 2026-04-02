@@ -1,10 +1,10 @@
 ---
 title: IA en aplicaciones de Experience Cloud
 description: Descubra cómo las aplicaciones de Experience Cloud utilizan la IA generativa (GenAI), el asistente de IA y la IA agéntica.
-source-git-commit: 73d63e310783310d0e6fb3d696ded7d4edb5bede
+source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 16%
+source-wordcount: '846'
+ht-degree: 17%
 
 ---
 
@@ -78,15 +78,17 @@ Utilice el Agente de soporte del producto para la depuración de autoservicio y 
 
 Lea la [Documentación del agente de soporte técnico](./agents/product-support.md) para obtener más información.
 
-#### Adobe Marketing Agent para [!DNL Microsoft 365 Copilot]
+<!--
+#### Adobe Marketing Agent for [!DNL Microsoft 365 Copilot]
 
-Use Adobe Marketing Agent para [!DNL Microsoft 365 Copilot] con el fin de recuperar información de marketing de Experience Platform en aplicaciones de [!DNL Microsoft 365] como [!DNL Teams], [!DNL Word], [!DNL Powerpoint] y [!DNL Excel]. Con este agente, puede:
+Use the Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] to retrieve marketing insights from Experience Platform in [!DNL Microsoft 365] apps like [!DNL Teams], [!DNL Word], [!DNL Powerpoint], and [!DNL Excel]. With this agent, you can:
 
-- Tome decisiones de marketing más rápidas y basadas en datos.
-- Reduzca el tiempo invertido en cambiar entre herramientas.
-- Simplifique el acceso a las perspectivas de audiencia y recorrido entre equipos.
+- Make faster, data-driven marketing decisions.
+- Reduce time spent switching between tools.
+- Simplify access to audience and journey insights across teams.
 
-Lea la [documentación de Adobe Marketing Agent](./agents/ama-ms.md) para obtener más información.
+Read the [Adobe Marketing Agent documentation](./agents/ama-ms.md) for more information.
+-->
 
 ## Introducción
 

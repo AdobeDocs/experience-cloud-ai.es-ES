@@ -1,9 +1,9 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Descubra cómo puede utilizar Adobe Marketing Agent for Microsoft 365 Copilot.
-source-git-commit: 5cf5e42c727cd5e48b1b817e150fb9862fc80c82
+source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Para poder usar Adobe Marketing Agent para [!DNL Microsoft 365 Copilot], primero
 
 ## Habilite el agente para su organización {#enable-the-agent-for-your-organization}
 
-Los usuarios finales solo pueden usar Adobe Marketing Agent una vez que esté disponible en su inquilino de [!DNL Microsoft 365]. **Póngase en contacto con el administrador de [!DNL Microsoft 365] Copilot** (o un administrador equivalente para los agentes de Copilot de su organización) para habilitar el acceso y asignar el agente según lo requiera su organización.
+Los usuarios finales solo pueden usar Adobe Marketing Agent una vez que esté disponible en su inquilino de [!DNL Microsoft 365]. **Trabaje con su [!DNL Microsoft 365] administrador de Copilot** (o administrador equivalente para los agentes de Copilot de su organización) para habilitar el acceso y asignar el agente según lo requiera su organización.
 
 Los resultados habituales después de la configuración de la administración incluyen:
 
@@ -122,6 +122,10 @@ El agente está diseñado para devolver perspectivas de solo lectura y no modifi
 **Idiomas y ámbito compatibles**
 
 La versión inicial está disponible como experiencia en inglés. Las capacidades se limitan a perspectivas de solo lectura; el agente no crea ni actualiza recursos o configuraciones de marketing.
+
+>[!IMPORTANT]
+>
+>Adobe Marketing Agent invoca diferentes agentes y trabajos de Adobe según las solicitudes enviadas. Este agente de Adobe subyacente que se invoca utiliza créditos de IA como se indica en la página [Trabajos del agente de Adobe Experience Platform y consumo de créditos de IA](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
 
 ## Apéndice
 
