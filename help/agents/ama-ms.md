@@ -125,7 +125,7 @@ La versión inicial está disponible como experiencia en inglés. Las capacidade
 
 >[!IMPORTANT]
 >
->Adobe Marketing Agent invoca diferentes agentes y trabajos de Adobe según las solicitudes enviadas. Este agente de Adobe subyacente que se invoca utiliza créditos de IA como se indica en la página [Trabajos del agente de Adobe Experience Platform y consumo de créditos de IA](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+>Adobe Marketing Agent invoca diferentes agentes y trabajos de Adobe según las solicitudes enviadas. Este agente de Adobe subyacente que se invoca utiliza créditos de IA como se indica en la página [Trabajos del agente de Adobe Experience Platform y consumo de créditos de IA](https://experienceleague.adobe.com/es/docs/core-services/interface/features/ai-credit-consumption).
 
 ## Apéndice
 
