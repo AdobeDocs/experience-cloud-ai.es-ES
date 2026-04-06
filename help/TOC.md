@@ -5,7 +5,7 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga más información sobre el Asistente de IA en Experience Cloud. Mejore su conocimiento de los productos y obtenga datos operativos utilizando IA en Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 71dbd210086c00e566a8bbf00552db45cc9e61f4
+source-git-commit: 707fc108185d37c122a297e3ee1ebd06b41d053c
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 62%
@@ -31,5 +31,5 @@ ht-degree: 62%
    - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
    - [Prueba de agentes](./agents/trial.md)
    - Ingeniería de datos {#data-engineering}
-      - [Data Engineering Agent](./agents/data-engineering/overview.md)
+      - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 
