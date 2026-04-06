@@ -3,7 +3,7 @@ title: Privacidad, seguridad y administración en el asistente de IA
 description: Obtenga información acerca de las prácticas de privacidad, seguridad y gobernanza de AI Assistant.
 source-git-commit: 96db2a481d08011139bba6e93b13c8f35420fb61
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -23,4 +23,4 @@ Lea este documento para obtener más información acerca de las capacidades cent
 * El asistente de IA se basa en datos específicos de zonas protegidas y en la documentación pública de Adobe al responder a las solicitudes de los usuarios. Los datos no se comparten en entornos limitados.
 * Los mensajes que proporcione al asistente de IA no se comparten con otros clientes.
 
-&ast; *Esto implica que si se agregan etiquetas nuevas a los campos y objetos o se crean directivas nuevas, el Asistente de IA tardará hasta 24 horas en respetarlas. Durante esas 24 horas, los usuarios con acceso recién restringido aún pueden tener acceso a esos campos y objetos.*
+&ast; *Esto implica que si se agregan etiquetas nuevas a los campos y objetos o se crean directivas nuevas, el Ayudante de IA tardará hasta 24 horas en respetarlas. Durante esas 24 horas, los usuarios con acceso recién restringido aún pueden tener acceso a esos campos y objetos.*
