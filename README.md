@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVADO
 
-Este repositorio se ha migrado a <https://github.com/Adobe-Enterprise-Docs/experience-cloud-ai.en>.
+Este repositorio se ha migrado a <https://github.com/Adobe-Enterprise-Docs/experience-cloud-ai.es-ES>.
