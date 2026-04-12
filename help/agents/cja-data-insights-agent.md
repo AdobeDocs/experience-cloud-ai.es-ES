@@ -5,7 +5,7 @@ role: User, Admin
 solution: Customer Journey Analytics
 source-git-commit: 73e912386f409762d3e0b89f474b83032e720fcc
 workflow-type: tm+mt
-source-wordcount: '2554'
+source-wordcount: '2690'
 ht-degree: 4%
 
 ---
@@ -257,7 +257,7 @@ A continuación se describen las prácticas recomendadas para la configuración 
 * **Equilibre los componentes que necesita**. No agregue todos los campos de los conjuntos de datos como métricas o componentes de dimensión a la vista de datos, especialmente los que no espera utilizar en el análisis. Por otro lado, no se limite estrictamente a los campos que prevé que necesite para el análisis. Una vista de datos demasiado limitada restringe la flexibilidad del análisis y la funcionalidad de Data Insights Agent.
 * **Use siempre nombres descriptivos para mostrar**. Asegúrese de que todos los campos que defina en la vista de datos, ya sea como una métrica o un componente de dimensión, tengan un nombre de componente descriptivo. El proceso de cambiar el nombre de los campos con un nombre descriptivo es especialmente relevante para los campos de conjuntos de datos del conector de origen de Adobe Analytics. Estos campos a menudo tienen nombres no descriptivos no identificables, como `eVar41` o `prop25`.
 * **Use nombres distintivos**. Los nombres distintivos son especialmente relevantes cuando se utiliza el mismo campo como componente de métrica y de dimensión en la vista de datos. O cuando se utiliza un campo en varios componentes del mismo tipo (por ejemplo, en dos métricas diferentes), cada uno con una configuración de componente diferente.
-* **Use una convención de nomenclatura de componentes**. Puede utilizar una convención de nombres de componentes para agrupar componentes. Por ejemplo, **[!UICONTROL Pedidos |]** y **[!UICONTROL pedidos del producto | El cliente]** puede distinguir entre distintas métricas de pedidos que podrían existir en sus datos.
+* **Use una convención de nomenclatura de componentes**. Puede utilizar una convención de nombres de componentes para agrupar componentes. Por ejemplo, **[!UICONTROL Pedidos | Producto]** y **[!UICONTROL Pedidos | Cliente]** pueden distinguir entre distintas métricas de pedidos que podrían existir en sus datos.
 * **Usar el diccionario de datos**. Agregue descripciones y otros datos relevantes para los componentes del diccionario de datos. En la actualidad, Data Insights Agent no utiliza descripciones ni etiquetas del diccionario de datos, pero es posible que lo haga en el futuro.
 * **Usar métricas calculadas aprobadas**. Acuerde un proceso para utilizar solamente métricas calculadas aprobadas como componentes en la vista de datos y evitar el uso de métricas calculadas experimentales.
 * **Comparta los segmentos necesarios**. Asegúrese de compartir segmentos y de hacer visibles los segmentos necesarios para las peticiones de datos de Data Insights Agent.
@@ -267,6 +267,6 @@ A continuación se describen las prácticas recomendadas para la configuración 
 >[!MORELIKETHIS]
 >
 >[Configuración de componentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Diccionario de datos &#x200B;](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Diccionario de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
 >[Aprobar métrica calculada](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
 >[Compartir segmentos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/segments/seg-share)
