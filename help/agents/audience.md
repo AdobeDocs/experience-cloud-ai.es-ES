@@ -1,13 +1,16 @@
 ---
 title: Audience Agent
 description: Aprenda a utilizar Audience Agent para crear audiencias, ver cambios de audiencia, detectar audiencias duplicadas y ver perspectivas de audiencia.
-source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
+TQID: https://experienceleague.adobe.com/574QhqKI0YDoPHD9BFmB6jl-HET3zVom3eD4cJQABSE
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: 1242
 ht-degree: 2%
 
 ---
-
 
 # Audience Agent
 
@@ -59,84 +62,84 @@ Además, al utilizar Audience Agent, debe tener en cuenta las siguientes restric
 - Audience Agent necesita al menos 24 horas para procesar sus datos
    - Por ejemplo, **no puede** tener una consulta que busque datos en las últimas 24 horas. Tendrá que mirar dentro de las últimas 48 horas, como mínimo.
 - Audience Agent solo admite los siguientes tipos de audiencia:
-   - **Audiencias basadas en personas** que se evalúan mediante la segmentación por lotes
-   - Audiencias **basadas en cuenta** para los siguientes casos de uso:
-      - Exploración de audiencia conversacional
-      - Detección de audiencia duplicada
+   - **People-based** audiences that are evaluated using batch segmentation
+   - **Account-based** audiences for the following use cases:
+      - Conversational audience exploration
+      - Duplicate audience detection
 
-## Ejemplos de peticiones de datos
+## Sample prompts
 
-Los siguientes ejemplos muestran mensajes y respuestas de ejemplo para Audience Agent.
+The following examples demonstrate sample prompts and responses for the Audience Agent.
 
-### Exploración de audiencia conversacional
+### Conversational audience exploration
 
-Muéstrame campos para compradores adinerados.
-
-+++ Respuesta
-
-![El asistente de IA muestra una tabla con campos relevantes para los compradores adinerados.](./images/audience/affluent-buyers.png)
-
-+++
-
-¿Qué audiencias no se han activado ni utilizado en ninguna campaña en los últimos 30 días?
+Show me fields for affluent buyers.
 
 +++ Respuesta
 
-![El Asistente para IA muestra una tabla con audiencias que no se han activado o utilizado en campañas en los últimos 30 días.](./images/audience/not-activated.png)
+![The AI Assistant shows a table displaying fields that are relevant to affluent buyers.](./images/audience/affluent-buyers.png)
 
 +++
 
-Enumerar todas las audiencias que se han asignado a nuevos destinos en los últimos 3 meses.
+Which audiences have not been activated or used in any campaign in the last 30 days?
 
 +++ Respuesta
 
-![El Asistente para IA enumera una audiencia que se ha asignado a un nuevo destino en los últimos tres meses.](./images/audience/new-destination.png)
+![The AI Assistant shows a table that displays audiences that haven&#39;t been activated or used in campaigns in the last 30 days.](./images/audience/not-activated.png)
 
 +++
 
-¿Qué audiencia de cuenta tiene el tamaño de audiencia más grande y cuál es ese tamaño?
+List all the audiences that have been mapped to new destinations in the last 3 months.
 
 +++ Respuesta
 
-![El Asistente para IA muestra una tabla con las audiencias de cuenta más grandes.](./images/audience/largest-account-audience.png)
+![The AI Assistant lists the one audience that has been mapped to a new destination in the last 3 months.](./images/audience/new-destination.png)
 
 +++
 
-### Detección de audiencias duplicadas
-
-¿Tengo audiencias con descripciones idénticas o similares?
+Which account audience has the largest audience size and what is that size?
 
 +++ Respuesta
 
-![El Asistente de IA muestra una tabla que contiene la definición del segmento y los nombres de las audiencias con las mismas definiciones de segmento.](./images/audience/similar-descriptions.png)
+![The AI Assistant shows a table that displays the largest account audiences.](./images/audience/largest-account-audience.png)
 
 +++
 
-Identifique las audiencias que tienen las mismas reglas pero tienen nombres diferentes.
+### Detect duplicate audiences
+
+Do I have any audiences with identical or similar descriptions?
 
 +++ Respuesta
 
-![El Asistente para IA muestra una tabla con los nombres de audiencias que comparten las mismas reglas de audiencia.](./images/audience/same-rules-different-names.png)
+![The AI Assistant displays a table that contains the segment definition and the names of the audiences with the same segment definitions.](./images/audience/similar-descriptions.png)
 
 +++
 
-Mostrar todas las audiencias que tengan las mismas reglas pero distintos destinos de activación.
+Identify audiences that have the same rules but have different names.
 
 +++ Respuesta
 
-![El Asistente de IA muestra que no hay definiciones de segmento duplicadas para diferentes destinos.](./images/audience/same-rules-different-destinations.png)
+![The AI Assistant displays a table that contains the names of audiences that share the same audience rules.](./images/audience/same-rules-different-names.png)
 
 +++
 
-Identificar audiencias de cuenta que tienen las mismas reglas pero tienen nombres diferentes.
+Show me all the audiences that have the same rules but different activation destinations.
 
 +++ Respuesta
 
-![El Asistente para IA muestra una tabla con los nombres e identificadores de audiencias de cuenta que comparten las mismas reglas de audiencia.](./images/audience/duplicate-account-audience.png)
+![The AI Assistant shows that there are no duplicate segment definitions to different destinations.](./images/audience/same-rules-different-destinations.png)
 
 +++
 
-### Recuperar tamaño de audiencia
+Identify account audiences that have the same rules but have different names.
+
++++ Respuesta
+
+![The AI Assistant displays a table that contains the names and IDs of account audiences that share the same audience rules.](./images/audience/duplicate-account-audience.png)
+
++++
+
+### Retrieve audience size
 
 ¿Cuál es el tamaño actual de mi audiencia &quot;Miembros Gold-star en California_f153e1&quot;?
 
@@ -216,7 +219,7 @@ Para esta consulta, AI Assistant genera el Profile Query Language (PQL) relevant
 homeAddress.state.equals("California", false)
 ```
 
-Para obtener más información sobre PQL, lea la [descripción general de PQL](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/pql/overview).
+Para obtener más información sobre PQL, lea la [descripción general de PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
