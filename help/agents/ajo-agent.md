@@ -272,7 +272,7 @@ Actualmente no se admiten las siguientes funcionalidades:
 
 Journey Agent will enable Journey Optimizer users to analyze, and optimize journeys using a natural language interface. With Journey Agent, practitioners can quickly identify and resolve schedule and/or audience conflicts, detect points of user abandonment in a journey and provide insights or recommendations. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación del cliente y agilizar la orquestación del recorrido.
 
-Learn more and discover the agent at a glance in this [overview](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Learn more and discover the agent at a glance in this [overview](https://experienceleague.adobe.com/es/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >

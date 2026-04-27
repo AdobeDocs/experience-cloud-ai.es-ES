@@ -89,7 +89,7 @@ Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Jou
 
    1. Seleccione **[!UICONTROL Guardar]** para guardar los permisos.
 
-  Para obtener información adicional sobre el control de acceso, consulte [Control de acceso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
+  Para obtener información adicional sobre el control de acceso, consulte [Control de acceso](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Acceso a vista de datos**: las vistas de datos deben habilitarse para Data Insights Agent.
 
@@ -97,7 +97,7 @@ Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Jou
   >
   >Tenga en cuenta lo siguiente al habilitar las vistas de datos:
   >* Puede habilitar un máximo de 50 vistas de datos por organización IMS. Si habilita más de 50 vistas de datos en todos los perfiles de producto para una organización determinada, Data Insights Agent utilizará las 50 vistas de datos más utilizadas.
-  >  Puede usar la [información de la columna Data Insights Agent en Vistas de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) para ver la cantidad de vistas de datos que están habilitadas para Data Insights Agent en su organización IMS.
+  >  Puede usar la [información de la columna Data Insights Agent en Vistas de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) para ver la cantidad de vistas de datos que están habilitadas para Data Insights Agent en su organización IMS.
   >* Data Insights Agent puede hacer referencia a las vistas de datos incluidas en algún momento durante el mismo día en que las habilita.
 
   Para habilitar las vistas de datos para Data Insights Agent:
@@ -108,7 +108,7 @@ Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Jou
 
       ![Habilitar vistas de datos para Data Insights Agent](/help/agents/images/cja-agent/data-view-enable-dia.png)
 
-      Para obtener más información acerca de cómo habilitar vistas de datos para Data Insights Agent, consulte la [Configuración de IA para una vista de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings).
+      Para obtener más información acerca de cómo habilitar vistas de datos para Data Insights Agent, consulte la [Configuración de IA para una vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings).
 
   Para ver la cantidad de vistas de datos que están habilitadas para Data Insights Agent en su organización IMS:
 
@@ -195,7 +195,7 @@ Adobe Experience Platform Agent Orchestrator allows you to access the functional
 
 Agent Orchestrator interprets your request, determines which specialized agents are needed, and orchestrates them to deliver the right response. It keeps track of context across multi-turn interactions, so you can build on prior queries naturally.
 
-For more information, see [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
+For more information, see [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/es/products/experience-platform/agent-orchestrator.html).
 
 ## Example data visualization prompts
 
@@ -285,7 +285,7 @@ A continuación se describen las prácticas recomendadas para la configuración 
 
 >[!MORELIKETHIS]
 >
->[Configuración de componentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Diccionario de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Aprobar métrica calculada](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Compartir segmentos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Configuración de componentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Diccionario de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Aprobar métrica calculada](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Compartir segmentos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/segments/seg-share)
