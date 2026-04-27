@@ -1,9 +1,19 @@
 ---
 title: Guía de la interfaz de usuario del Asistente de IA
 description: Obtenga información sobre cómo acceder al Asistente de IA y utilizarlo en la interfaz de usuario.
-source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
+TQID: https://experienceleague.adobe.com/MWhVCqUFt5Qze4mQp-G85OF81Mk1OL4xY8Jygm-B4PI
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: 2162
 ht-degree: 3%
 
 ---
@@ -12,58 +22,58 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Este documento se aplica a AI Assistant (Next-Gen). Para obtener información sobre el asistente de IA (heredado), lea la [guía de la interfaz de usuario del asistente de IA](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home) en la documentación de Adobe Experience Platform.
+>This document applies to AI Assistant (Next-Gen). For information on AI Assistant (Legacy), read the [AI Assistant UI guide](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home) in the Adobe Experience Platform documentation.
 
-Consulte la siguiente tabla para ver una comparación de AI Assistant (Legacy) y AI Assistant (Next-Gen):
+Refer to the following table for a comparison of AI Assistant (Legacy) and AI Assistant (Next-Gen):
 
-| Área de funciones | Asistente de IA (heredado) | Asistente de IA (próxima generación) |
+| Feature Area | AI Assistant (Legacy) | AI Assistant (Next-Gen) |
 | --- | --- | --- |
-| Experiencia del usuario | El asistente de IA (heredado) solo está disponible en un panel del carril derecho. | El asistente de IA (próxima generación) está disponible tanto en el panel derecho como en la experiencia de pantalla completa envolvente. |
-| Ámbito de las capacidades | Puede utilizar el asistente de IA (heredado) para obtener conocimientos del producto y perspectivas operativas. | Puede utilizar el asistente de IA (próxima generación) para obtener conocimientos del producto, perspectivas operativas, así como habilidades agénticas avanzadas y ejecución de tareas de varios pasos. |
-| Arquitectura de plataforma | El asistente de IA (heredado) no se crea en la pila de Agent Orchestrator. | El Asistente de IA (próxima generación) cuenta con la tecnología [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), lo que permite la extensibilidad y la coordinación avanzada entre las distintas funcionalidades. |
-| Cobertura de aplicación | El asistente de IA (heredado) es una implementación específica de la aplicación. | Puede utilizar el asistente de IA (próxima generación) para obtener una experiencia de asistente de IA unificada en todas las aplicaciones de Adobe Experience Cloud. |
-| Modelo de acceso y permiso | Modelo de acceso con ámbito de aplicación alineado con los límites de cada producto. | Todos los usuarios tienen acceso al asistente de IA (próxima generación) y a los agentes de Experience Platform asociados. **Nota**: <ul><li>**Adobe Experience Manager**: el administrador debe concederle permiso para acceder al Asistente de IA (próxima generación) a través de [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: el administrador debe concederle permiso para acceder al Asistente de IA a través de [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/access-control?lang=en). Esto le permite hacer preguntas sobre el conocimiento del producto y las perspectivas de datos. |
+| User experience | AI Assistant (Legacy) is available in a right-rail panel only. | AI Assistant (Next-Gen) is available in both right-rail panel and immersive full-screen experience. |
+| Scope of capabilities | You can use AI Assistant (Legacy) for both product knowledge and operational insights. | You can use  AI Assistant (Next-Gen) for product knowledge, operational insights, as well as advanced agentic skills and multi-step task execution. |
+| Platform architecture | AI Assistant (Legacy) is not built on the Agent Orchestrator stack. | AI Assistant (Next-Gen) is powered by [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), enabling extensibility and advanced coordination across capabilities. |
+| Application coverage | AI Assistant (Legacy) is an application-specific implementation. | You can use AI Assistant (Next-Gen) for a unified AI Assistant experience across all Adobe Experience Cloud applications. |
+| Access and permission model | Application-scoped access model aligned to individual product boundaries. | All users get access to AI Assistant (Next-Gen) and associated Experience Platform agents. **Note**: <ul><li>**Adobe Experience Manager**: Your administrator must grant you the permission to access AI Assistant (Next-Gen) through the [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: Your administrator must grant you the permission to access AI Assistant through [Customer Journey Analytics Access Control](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/access-control?lang=en). This allows you to ask product knowledge and data insights questions. |
 
-El asistente de IA es una herramienta inteligente de IA conversacional y generativa que impulsará la productividad y redefinirá el trabajo en aplicaciones basadas en Adobe Experience Platform. Puede utilizar el Asistente de IA para acceder a los agentes de Adobe Experience Platform y otras funciones de IA.
+AI Assistant is an intelligent conversational, generative AI tool that will boost productivity and redefine work in Adobe Experience Platform-based Applications. You can use AI Assistant to access Adobe Experience Platform Agents and other AI capabilities.
 
-Lea esta guía para aprender a utilizar el Asistente para IA.
+Read this guide to learn how you can use AI Assistant.
 
-![Interfaz de inicio del Asistente de IA en pantalla completa.](./images/ai-assistant/blank-home.png)
+![The AI Assistant home interface in full-screen.](./images/ai-assistant/blank-home.png)
 
 >[!SLIDE](agent-orchestrator-ui)
 
 ## Acceso al Asistente de IA
 
-Existen varias formas de acceder a AI Assistant.
+There are several ways to access AI Assistant.
 
-En la interfaz de inicio de Experience Cloud, seleccione **[!UICONTROL Asistente de IA]** en el panel de navegación izquierdo para iniciar una vista de pantalla completa del Asistente de IA.
-
-+++Seleccionar para ver
-
-![Inicio de Experience Cloud con el icono Asistente de IA seleccionado en el panel de navegación izquierdo.](./images/ai-assistant/from-experience-cloud.png)
-
-+++
-
-También puede iniciar AI Assistant desde las páginas de inicio de aplicaciones de Experience Cloud como Experience Platform, Adobe Journey Optimizer y Customer Journey Analytics. Vaya a la página de inicio del producto y, a continuación, seleccione el **icono del asistente de IA** en el encabezado superior para iniciar el panel de chat del asistente de IA en el carril derecho.
+In the Experience Cloud home interface, select **[!UICONTROL AI Assistant]** from the left-navigation to launch a full-screen view of AI Assistant.
 
 +++Seleccionar para ver
 
-![Inicio del producto con el icono del Asistente de IA seleccionado en el panel de navegación izquierdo.](./images/ai-assistant/from-product.png)
+![The Experience Cloud home with the AI Assistant icon selected in the left-navigation.](./images/ai-assistant/from-experience-cloud.png)
 
 +++
 
-## Navegar por la interfaz de usuario del asistente de IA
+You can also launch AI Assistant from the home pages of Experience Cloud applications such as Experience Platform, Adobe Journey Optimizer, and Customer Journey Analytics. Navigate to your product home page and then select the **AI Assistant icon** from the top header to launch the AI Assistant chat panel on the right rail.
 
-Lea esta sección para aprender a desplazarse por la interfaz del asistente de IA.
++++Seleccionar para ver
 
-### Vista de pantalla completa
+![The product home with the AI Assistant icon selected in the left-navigation.](./images/ai-assistant/from-product.png)
 
-La interfaz del asistente de IA incluye varios elementos clave para ayudarle a interactuar de forma eficaz:
++++
 
-1. **[!UICONTROL Conversaciones]**: selecciona el icono **[!UICONTROL Conversaciones]** para iniciar una nueva conversación y acceder a las conversaciones recientes de tu historial. Para obtener más información, lea la sección sobre [conversaciones](#conversations).
-2. **Cuadro de entrada**: seleccione el cuadro de entrada para escribir preguntas y peticiones de datos para el Ayudante de IA. Para obtener más información, lea la sección sobre [características de entrada](#input-features).
-3. **Autocompletar datos y objetos**: - Seleccione el icono de signo + para usar la sugerencia y autocompletar datos y objetos. Una vez seleccionada, puede utilizar una ventana emergente para seleccionar las entidades sugeridas. Para obtener más información, lea la sección sobre [autocompletar datos y objetos](#autocomplete).
-4. **Configuración de contexto**: - Seleccione el icono Configuración de contexto para configurar las fuentes de información para el Asistente de IA. Puede utilizar esta herramienta para configurar la aplicación, la zona protegida y la vista de datos a los que hace referencia el Asistente de IA para responder a la consulta. Para obtener más información, lea la sección sobre [configuración de contexto](#context-setting).
+## Navigate the AI Assistant user interface
+
+Read this section to learn how you can navigate the AI Assistant interface.
+
+### Full screen view
+
+The AI Assistant interface includes several key elements to help you interact effectively:
+
+1. **[!UICONTROL Conversations]**: Select the **[!UICONTROL Conversations]** icon to start a new conversation and access recent conversations from your history. For more information, read the section on [conversations](#conversations).
+2. **Input box**: Select the input box to enter questions and prompts for AI Assistant. For more information, read the section on [input features](#input-features).
+3. **Data and object autocomplete**: - Select the plus icon to use data and object suggestion and autocomplete. When selected, you can use a pop-up window to select suggested entities. For more information, read the section on [data and object autocomplete](#autocomplete).
+4. **Context setting**: - Select the Context setting icon to configure information sources for AI Assistant. You can use this tool to configure the application, sandbox, and dataview that AI Assistant references in order to answer your query. For more information, read the section on [context setting](#context-setting).
 5. **Descubrimiento**: - Seleccione **[!UICONTROL Aprender]**, **[!UICONTROL Analizar]** y **[!UICONTROL Optimizar]** para ver las consultas de muestra que puede usar para comenzar. Para obtener más información, lea la sección sobre [avisos de detección](#discoverability-prompts).
 
 ![El Asistente de IA en pantalla completa.](./images/ai-assistant/ui-home.png)
@@ -250,20 +260,20 @@ Para ver un gráfico de líneas, seleccione **[!UICONTROL Propiedades]** y luego
 
 >[!TAB Área]
 
-Para ver un gráfico de áreas, seleccione **[!UICONTROL Propiedades]** y, a continuación, seleccione **[!UICONTROL Área]**.
+To view an area graph, select **[!UICONTROL Properties]** and then select **[!UICONTROL Area]**.
 
-![Un gráfico de áreas en el Asistente de IA.](./images/ai-assistant/visualization/area.png)
+![An area graph on AI Assistant.](./images/ai-assistant/visualization/area.png)
 
->[!TAB Dispersión]
+>[!TAB Scatter]
 
-Para ver un gráfico de dispersión, selecciona **[!UICONTROL Propiedades]** y luego selecciona **[!UICONTROL Dispersión]**.
+To view a scatter graph, select **[!UICONTROL Properties]** and then select **[!UICONTROL Scatter]**.
 
-![Un gráfico de dispersión en el Asistente de IA.](./images/ai-assistant/visualization/scatter.png)
+![A scatter graph on AI Assistant.](./images/ai-assistant/visualization/scatter.png)
 
 >[!TAB Anillo]
 
-Para ver un gráfico de anillo, selecciona **[!UICONTROL Propiedades]** y luego selecciona **[!UICONTROL Anillo]**.
+To view a donut graph, select **[!UICONTROL Properties]** and then select **[!UICONTROL Donut]**.
 
-![Gráfico de anillo en el Asistente de IA.](./images/ai-assistant/visualization/donut.png)
+![A donut graph on AI Assistant.](./images/ai-assistant/visualization/donut.png)
 
 >[!ENDTABS]
