@@ -5,38 +5,24 @@ solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: d209365776b2467f5230fa2cc9a3a4534eb57328
 workflow-type: tm+mt
-source-wordcount: 2655
+source-wordcount: 2687
 ht-degree: 14%
 
 ---
 
+
 # Journey Agent: Información general y guía del usuario
+
+>[!AVAILABILITY]
+>
+>Las habilidades de creación de Journey Agent y las habilidades de generación de contenido están disponibles para los clientes que forman parte del programa Agent Orchestrator Explorer. Para obtener más información, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 ## Introducción a Journey Agent en Adobe Journey Optimizer
 
@@ -56,7 +42,7 @@ Recorrido Crear permite a los usuarios de Journey Optimizer crear y configurar r
 
 >[!AVAILABILITY]
 >
->La opción Crear recorrido está disponible para todos los clientes que tienen acceso al asistente de IA. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de creación de Recorridos:
+>Recorrido Crear está disponible para los clientes que forman parte del programa Agent Orchestrator Explorer. También necesitará los siguientes permisos para utilizar completamente las funciones de creación de Recorridos:
 >
 >**Administrar Recorridos**: este permiso le permite crear nuevos recorridos directamente en el Asistente para IA.
 >
@@ -177,53 +163,53 @@ Para maximizar la eficacia de Creación de Recorridos, siga estas prácticas rec
 Cuando un usuario entre en mi ubicación de tienda, enviar un mensaje de bienvenida mediante la acción personalizada ExternalPush. Espere 2 días y, a continuación, envíe un mensaje de seguimiento mediante una acción personalizada por correo electrónico externo con una encuesta sobre su visita.
 1. **Validar expresiones**: asegúrese de comprobar y validar cualquier expresión que cree Journey Agent para asegurarse de que se utilizan los campos y valores correctos.
 
-### Setup best practices
+### Prácticas recomendadas de configuración
 
-- **Define Clear Objectives**: Before creating journeys, establish clear goals (improving retention, driving conversions, increasing engagement).
-- **Prepare Audiences**: Ensure your target audiences are already created and properly segmented.
-- **Plan Message Content**: Have your messaging strategy defined before journey creation.
-- **Consider Customer Experience**: Design journey flows that respect customer preferences and avoid over-communication.
+- **Definir objetivos claros**: antes de crear recorridos, establezca objetivos claros (mejorar la retención, impulsar las conversiones y aumentar la participación).
+- **Preparar audiencias**: Asegúrese de que las audiencias de destino ya se hayan creado y segmentado correctamente.
+- **Planificar contenido del mensaje**: Defina su estrategia de mensajería antes de crear el recorrido.
+- **Tenga en cuenta la experiencia del cliente**: Diseñe flujos de recorrido que respeten las preferencias del cliente y eviten la comunicación excesiva.
 
-## Channel Content Create: Use Cases, Agentic Skills and User Guide
+## Creación de contenido de canal: casos de uso, habilidades de agente y guía del usuario
 
 >[!AVAILABILITY]
 >
->This feature is available for all customers in Limited Availability. Póngase en contacto con su representante de Adobe para obtener acceso.
+>Esta función está disponible para todos los clientes con disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 ## Información general
 
-Channel Content Create enables Journey Optimizer users to generate, edit, and manage channel-specific content for journeys using AI-powered content generation.
+La creación de contenido de canal permite a los usuarios de Journey Optimizer generar, editar y administrar contenido específico del canal para recorridos mediante la generación de contenido con tecnología de IA.
 
 ## Casos de uso
 
-### Key use cases for Channel Content Create
+### Casos de uso clave para la creación de contenido de canal
 
-1. **Channel-specific content generation**: Generate content for email, push notifications, SMS, and other channels using natural language prompts.
+1. **Generación de contenido específico del canal**: genere contenido para correo electrónico, notificaciones push, SMS y otros canales mediante mensajes en lenguaje natural.
 
-1. **Template-based content creation**: Browse and select from available templates with preview capabilities.
+1. **Creación de contenido basado en plantillas**: busca y selecciona entre las plantillas disponibles con capacidades de vista previa.
 
-1. **Multi-channel content management**: Generate and manage content for multiple channels within the same journey workflow.
+1. **Administración de contenido multicanal**: genera y administra contenido para varios canales dentro del mismo flujo de trabajo de recorrido.
 
-1. **In-context content editing**: Open generated content in Content Designer for editing and refinement.
+1. **Edición de contenido en contexto**: abra el contenido generado en Content Designer para editarlo y refinarlo.
 
-1. **Content refinement and iteration**: Regenerate content with different tones or styles using the Regenerate action.
+1. **Refinamiento e iteración del contenido**: Regenera el contenido con diferentes tonos o estilos mediante la acción Regenerar.
 
-1. **Journey canvas integration**: Select journeys from inventory and view associated channels.
+1. **Integración de lienzo de Recorrido**: seleccione recorridos del inventario y vea los canales asociados.
 
-## In scope and out of scope skills
+## Aptitudes dentro y fuera del ámbito
 
-### **In scope**
+### **En ámbito**
 
-The following capabilities are supported by Channel Content Create:
+Las siguientes funciones son compatibles con la creación de contenido de canal:
 
-- **AI-powered content generation**: Generate content for email, push, SMS, and other channels using natural language prompts.
-- **Template management**: Browse and select from available templates with preview capabilities.
-- **In-context editing**: Open generated content in Content Designer for editing and refinement.
-- **Content regeneration**: Regenerate content with different tones, styles, or messaging using the Regenerate action.
-- **Multi-channel support**: Generate and manage content for multiple channels within the same journey workflow.
-- **Journey inventory access**: Select journeys from inventory and view associated channels.
+- **Generación de contenido con tecnología de IA**: genera contenido para correo electrónico, push, SMS y otros canales mediante mensajes en lenguaje natural.
+- **Administración de plantillas**: busca y selecciona entre las plantillas disponibles con capacidades de vista previa.
+- **Edición en contexto**: abra el contenido generado en Content Designer para editarlo y refinarlo.
+- **Regeneración de contenido**: Regenera el contenido con diferentes tonos, estilos o mensajes mediante la acción Regenerar.
+- **Compatibilidad con varios canales**: genere y administre contenido para varios canales dentro del mismo flujo de trabajo de recorrido.
+- **acceso al inventario de Recorridos**: seleccione recorridos del inventario y vea los canales asociados.
 
-### **Out of scope**
+### **Fuera de ámbito**
 
 Actualmente no se admiten las siguientes funcionalidades:
 
@@ -270,29 +256,29 @@ Actualmente no se admiten las siguientes funcionalidades:
 
 ## Información general
 
-Journey Agent will enable Journey Optimizer users to analyze, and optimize journeys using a natural language interface. With Journey Agent, practitioners can quickly identify and resolve schedule and/or audience conflicts, detect points of user abandonment in a journey and provide insights or recommendations. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación del cliente y agilizar la orquestación del recorrido.
+Journey Agent permitirá a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con Journey Agent, los profesionales pueden identificar y resolver rápidamente conflictos de programación o audiencia, detectar puntos de abandono de usuarios en un recorrido y proporcionar perspectivas o recomendaciones. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación del cliente y agilizar la orquestación del recorrido.
 
-Learn more and discover the agent at a glance in this [overview](https://experienceleague.adobe.com/es/slides/journey-agent-overview).
+Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
->The Journey Agent is available for all customers who have access to AI Assistant. However, you will need the following permissions in order to fully use the Journey Agent features:
+>Journey Agent está disponible para todos los clientes que tienen acceso a AI Assistant. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de Journey Agent:
 >
->**View Journeys**: This permission lets you view insights into the journey directly in AI Assistant.
+>**Ver Recorridos**: este permiso le permite ver información sobre el recorrido directamente en el Ayudante de IA.
 >
->**Manage Journeys**: To permission lets you create new journeys directly in AI Assistant.
+>**Administrar Recorridos**: El permiso Para permite crear nuevos recorridos directamente en el Asistente de IA.
 >
->**View Segments**: This permission lets you view insights into the audiences directly in AI Assistant.
+>**Ver segmentos**: Este permiso le permite ver información de las audiencias directamente en el Asistente de IA.
 >
->**Manage Segments**: To permission lets you create new audiences directly in AI Assistant.
+>**Administrar segmentos**: El permiso Para permite crear nuevas audiencias directamente en el Asistente de IA.
 
-![Sample for AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
+![Muestra para el agente de AJO](./images/ajo-agent/ajo-agent-sample.png)
 
 ## Casos de uso
 
-### Key Use Cases for Journey Analyze
+### Casos clave de uso para el análisis de Recorrido
 
-Journey Analyze offers a range of functionalities that can be leveraged to optimize marketing efforts:
+El análisis de recorrido ofrece una serie de funcionalidades que se pueden aprovechar para optimizar los esfuerzos de marketing:
 
 1. **Análisis del abandono del recorrido**
 
@@ -314,19 +300,19 @@ Journey Analyze offers a range of functionalities that can be leveraged to optim
 
 1. **Datos operativos**
 
-   - Prompt-based Journey Insights – Surface operational insights about journeys , i.e. &quot;show me all live journeys.&quot;
+   - Perspectivas de Recorrido basadas en mensajes - Perspectivas operativas de la superficie sobre recorridos , es decir, &quot;muéstreme todos los recorridos en directo&quot;.
 
-For each of these analyses, the agent not only detects issues but also provides **actionable recommendations to resolve them**.
+Para cada uno de estos análisis, el agente no solo detecta problemas, sino que también proporciona **recomendaciones procesables para resolverlos**.
 
 ## Competencias incluidas y excluidas del ámbito de aplicación
 
 ### **Ámbito de aplicación**
 
-The following capabilities are supported by Journey Analyze:
+El análisis de Recorrido admite las siguientes funciones:
 
 - **Consultas reactivas**: permite a los usuarios hacer preguntas específicas sobre el rendimiento del recorrido, el uso del público y los conflictos de programación.
 - **Integración con otros agentes**: colabora con Audience Agent y Data Insights Agent para un análisis más profundo.
-- **Agent response structuration**: reasoning (explain the logic), analysis summary (highlight key points), issue details (describe the problem), and recommendation (propose next steps).
+- **Estructura de la respuesta del agente**: razonamiento (explicar la lógica), resumen del análisis (resaltar puntos clave), detalles del problema (describir el problema) y recomendación (proponer pasos siguientes).
 
 ### **Fuera del ámbito de aplicación**
 
@@ -347,53 +333,53 @@ A continuación, presentamos ejemplos de solicitudes valiosas que los usuarios p
 
 ### Preguntas sobre el ciclo de vida del recorrido
 
-- &quot;When was [Journey Name] published?&quot;
-- &quot;When was [Journey Name] stopped?&quot;
-- &quot;List all journeys currently in test mode&quot;
+- &quot;¿Cuándo se publicó [Nombre de Recorrido]?&quot;
+- &quot;¿Cuándo se detuvo [Nombre de Recorrido]?&quot;
+- &quot;Enumerar todos los recorridos que están actualmente en modo de prueba&quot;
 
 ### Preguntas sobre los recursos del recorrido
 
-- &quot;How many live journeys do I have?&quot;
-- &quot;Give me a list of all scheduled recurring journeys and their expected run times.&quot;
+- &quot;¿Cuántos recorridos de vida tengo?&quot;
+- &quot;Dame una lista de todos los recorridos recurrentes programados y sus tiempos de ejecución esperados&quot;.
 
 ### Información sobre el público y el recorrido
 
-- &quot;Which audiences are used in more than X journeys?&quot;
-- &quot;List all journeys using the [audience name] audience.&quot;
+- &quot;¿Qué audiencias se utilizan en más de X recorridos?&quot;
+- &quot;Enumerar todos los recorridos con la audiencia [audience name]&quot;.
 
-### Fallout analysis
+### Análisis de abandonos
 
-- &quot;I want to analyze the fallout by node for journey Fourth of July Campaign.&quot;
-- &quot;Perform a fallout analysis for journey Fourth of July Campaign.&quot;
-- &quot;What is profile loss over the course of journey Fourth of July Campaign?&quot;
-- &quot;Show where users are dropping off in journey Fourth of July Campaign.&quot;
+- &quot;Quiero analizar las visitas en el orden previsto por nodo para la campaña del 4 de julio de recorrido&quot;.
+- &quot;Realizar un análisis de abandonos para la campaña del 4 de julio de recorrido&quot;.
+- &quot;¿Qué es la pérdida de perfil en el transcurso de la campaña del 4 de julio de recorrido?&quot;
+- &quot;Mostrar dónde caen los usuarios en la campaña del 4 de julio de recorrido&quot;.
 
 ### Solicitudes de análisis de conflictos
 
 Utilice estas solicitudes para analizar los posibles conflictos entre recorridos, incluidos los solapamientos de horarios y públicos:
 
-- &quot;Can you do a comprehensive analysis of conflicts for our journey [Journey Name] with conflict type (scheduling/audience) information with live/running journeys?&quot;
-- &quot;Please do a scheduling conflict analysis for journey [Journey Name] with conflict type information.&quot;
-- &quot;Please do an audience overlap analysis for journey [Journey Name] with conflict type information.&quot;
-- &quot;Are there any scheduling conflicts for journey [Journey Name]?&quot;
-- &quot;Show me audience overlap conflicts for journey [Journey Name].&quot;
-- &quot;Analyze all conflicts for journey [Journey Name] with other live journeys.&quot;
-- &quot;What are the current conflicts for journey [Journey Name]?&quot;
-- &quot;Check if journey [Journey Name] has audience conflicts with other journeys.&quot;
-- &quot;Check for scheduling conflicts involving journey [Journey Name].&quot;
-- &quot;I want to know about all journey conflicts for [Journey Name].&quot;
-- &quot;Do any live journeys conflict with [Journey Name] by schedule or audience?&quot;
-- &quot;Identify conflict types for journey [Journey Name] compared to running journeys.&quot;
-- &quot;Show overlapping audiences for journey [Journey Name] and other journeys.&quot;
-- &quot;Highlight scheduling overlaps between journey [Journey Name] and live journeys.&quot;
-- &quot;Is journey [Journey Name] running in conflict with any other journey?&quot;
-- &quot;Please detect and list conflicts for [Journey Name].&quot;
-- &quot;Report all types of conflicts for journey [Journey Name].&quot;
-- &quot;Give me a conflict breakdown (scheduling and audience) for [Journey Name].&quot;
-- &quot;Does [Journey Name] have any conflicts that may impact performance?&quot;
-- &quot;Are there any active conflicts affecting [Journey Name]?&quot;
-- &quot;List journeys in conflict with [Journey Name] by schedule or audience.&quot;
-- &quot;Has journey [Journey Name] triggered any conflict alerts?&quot;
+- &quot;¿Puede hacer un análisis completo de los conflictos de nuestro recorrido [Nombre del Recorrido] con información de tipo de conflicto (programación/audiencia) con recorridos en vivo/en ejecución?&quot;
+- &quot;Realice un análisis de conflictos de programación para el recorrido [Nombre del Recorrido] con información de tipo de conflicto.&quot;
+- &quot;Realice un análisis de superposición de audiencias para el recorrido [Nombre del Recorrido] con información del tipo de conflicto.&quot;
+- &quot;¿Hay algún conflicto de programación para el recorrido [Nombre de Recorrido]?&quot;
+- &quot;Mostrarme conflictos de superposición de audiencias para el recorrido [Nombre del Recorrido]&quot;.
+- &quot;Analice todos los conflictos del recorrido [Nombre de Recorrido] con otros recorridos activos.&quot;
+- &quot;¿Cuáles son los conflictos actuales para el recorrido [Nombre de Recorrido]?&quot;
+- &quot;Compruebe si el recorrido [Nombre de Recorrido] tiene conflictos de audiencia con otros recorridos&quot;.
+- &quot;Compruebe si hay conflictos de programación que impliquen el recorrido [Nombre de Recorrido].&quot;
+- &quot;Deseo obtener información sobre todos los conflictos de recorrido de [Nombre de Recorrido]&quot;.
+- &quot;¿Hay algún recorrido activo que entre en conflicto con [Nombre de Recorrido] por programación o audiencia?&quot;
+- &quot;Identifique los tipos de recorrido [Nombre de Recorrido] en comparación con los recorridos en ejecución.&quot;
+- &quot;Mostrar audiencias superpuestas para el recorrido [Nombre del Recorrido] y otros recorridos&quot;.
+- &quot;Resaltar las superposiciones de programación entre el recorrido [Nombre del Recorrido] y los recorridos activos.&quot;
+- &quot;¿El recorrido [Nombre de Recorrido] está en conflicto con algún otro recorrido?&quot;
+- &quot;Detecte y enumere los conflictos de [nombre de Recorrido].&quot;
+- &quot;Notificar todos los tipos de conflictos para el recorrido [Nombre del Recorrido].&quot;
+- &quot;Proporcionarme un desglose de conflictos (programación y audiencia) para [Nombre de Recorrido]&quot;.
+- &quot;¿Tiene [Nombre de Recorrido] algún conflicto que pueda afectar al rendimiento?&quot;
+- &quot;¿Hay algún conflicto activo que afecte a [Nombre de Recorrido]?&quot;
+- &quot;Enumerar recorridos que entran en conflicto con [Nombre de Recorrido] por programación o audiencia&quot;.
+- &quot;¿Ha activado el recorrido [Nombre de Recorrido] alguna alerta de conflicto?&quot;
 - &quot;Buscar posibles conflictos de audiencia para el recorrido [Nombre de Recorrido]&quot;.
 - &quot;Analice el riesgo de conflicto para el recorrido [Nombre de Recorrido].&quot;
 - &quot;Proporcionar diagnósticos de conflicto para [Nombre de Recorrido].&quot;
