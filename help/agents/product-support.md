@@ -1,18 +1,10 @@
 ---
 title: Agente de soporte del producto
 description: Aprenda cómo puede utilizar el agente de soporte de productos en el asistente de IA para optimizar la resolución de problemas y el proceso de archivado de tickets de asistencia al cliente.
-TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b2afc6a3f389790d7af2d4ba29a4362b28432a28
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -20,6 +12,10 @@ ht-degree: 100%
 ---
 
 # Agente de soporte del producto
+
+<!--
+TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o
+-->
 
 El Agente de soporte del producto es una capacidad de depuración y solución de problemas de autoservicio del Asistente de IA que puede utilizar para funciones y aplicaciones de Adobe Experience Platform.
 
@@ -68,5 +64,5 @@ Una vez completados estos pasos, los administradores de asistencia de su organiz
 
 Para obtener más información, vea el siguiente vídeo para aprender cómo puede utilizar el Agente de soporte de productos para solucionar problemas sin tener que abandonar los flujos de trabajo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443186?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
