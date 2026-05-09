@@ -22,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: 03b165bd63f21e4f92fecd26cd05605ab027fde3
 workflow-type: tm+mt
 source-wordcount: 2690
 ht-degree: 4%
@@ -165,78 +165,78 @@ A continuación, desea ver cómo se comparan los ingresos por región.
 
 **Mensaje:** En la ventana del mensaje, escriba *&quot;Mostrar ingresos por región.&quot;*
 
-**Respuesta:** Data Insights Agent entiende inteligentemente que por &quot;región&quot; se refiere a &quot;región del cliente&quot;. It produces a bar chart that best shows revenue by region:
+**Respuesta:** Data Insights Agent entiende inteligentemente que por &quot;región&quot; se refiere a &quot;región del cliente&quot;. Genera un gráfico de barras que muestra mejor los ingresos por región:
 
-![Bar chart](/help/agents/images/cja-agent/ai-asst-result2.png)
+![Gráfico de barras](/help/agents/images/cja-agent/ai-asst-result2.png)
 
-### Example 3
+### Ejemplo 3
 
-Next, in addition to understanding revenue by region, you also want to see data for profit by region. Instead of repeating the previous prompt, you can ask Data Insights Agent to update the most recent visualization and freeform table.
+A continuación, además de comprender los ingresos por región, también desea ver los datos con fines de lucro por región. En lugar de repetir la solicitud anterior, puede pedir a Data Insights Agent que actualice la visualización más reciente y la tabla de forma libre.
 
-**Prompt:** In the prompt window, type *&quot;Add profit.&quot;*
+**Mensaje:** En la ventana del mensaje, escriba *&quot;Agregar ganancia.&quot;*
 
-**Response:** The **[!UICONTROL Bar]** chart still provides the most concise answer, but the profit metric has been added as a column in the freeform table:
+**Respuesta:** El gráfico de **[!UICONTROL barras]** sigue proporcionando la respuesta más concisa, pero la métrica de beneficios se ha agregado como una columna en la tabla de forma libre:
 
-![Bar chart](/help/agents/images/cja-agent/ai-asst-result4.png)
+![Gráfico de barras](/help/agents/images/cja-agent/ai-asst-result4.png)
 
-### Example 4
+### Ejemplo 4
 
-Finally, let&#39;s look at the revenue by product category.
+Por último, veamos los ingresos por categoría de producto.
 
-**Prompt:** In the prompt window, enter *&quot;Proportion of revenue by product category.&quot;*
+**Mensaje:** En la ventana del mensaje, escriba *&quot;Proporción de ingresos por categoría de producto.&quot;*
 
-**Response:** Again, Data Insights Agent picks the most appropriate visualization, in this case the **[!UICONTROL Donut]** visualization, to answer the question.
+**Respuesta:** De nuevo, Data Insights Agent elige la visualización más adecuada, en este caso la visualización **[!UICONTROL Anillo]**, para responder a la pregunta.
 
 ![Anillo](/help/agents/images/cja-agent/ai-asst-result3.png)
 
-## Access Data Insights Agent across Experience Cloud applications
+## Acceso a Data Insights Agent en todas las aplicaciones de Experience Cloud
 
-Adobe Experience Platform Agent Orchestrator allows you to access the functionality of Data Insights Agent in multiple Adobe Experience Cloud applications, such as Adobe Journey Optimizer and Real-Time CDP.
+Adobe Experience Platform Agent Orchestrator le permite acceder a la funcionalidad de Data Insights Agent en varias aplicaciones de Adobe Experience Cloud, como Adobe Journey Optimizer y Real-Time CDP.
 
-Agent Orchestrator interprets your request, determines which specialized agents are needed, and orchestrates them to deliver the right response. It keeps track of context across multi-turn interactions, so you can build on prior queries naturally.
+Agent Orchestrator interpreta su solicitud, determina qué agentes especializados son necesarios y los organiza para que proporcionen la respuesta correcta. Realiza un seguimiento del contexto en las interacciones de varias vueltas, para que pueda aprovechar las consultas anteriores de forma natural.
 
-For more information, see [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/es/products/experience-platform/agent-orchestrator.html).
+Para obtener más información, consulte [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/es/products/experience-platform/agent-orchestrator.html).
 
-## Example data visualization prompts
+## Ejemplos de solicitudes de visualización de datos
 
-The following are some examples of common prompts and the visualizations used by Data Insights Agent to respond to those prompts.
+A continuación, se muestran algunos ejemplos de indicadores comunes y las visualizaciones utilizadas por Data Insights Agent para responder a dichos mensajes.
 
-| Example prompt | Expected visualization |
+| Mensaje de ejemplo | Visualización esperada |
 | --- | --- |
-| Show me profits in [Month] | Línea<p>Asking for a trend or metric within a certain time range by default returns a line visualization. |
-| Trend orders in [Month] | Línea |
-| Show revenue by region in [Month] | Barra |
-| Share of revenue by product category | Anillo |
-| Orders by day of week, from January to May | Barra |
-| Show orders by gender, from March to June | Barra |
-| What is the profit across SKUs from February to May | Barra |
-| Revenue by store name in [Month] | Barra |
-| What were my top 10 SKUs by profit in [Month]? | Barra |
-| Proportion of purchases by month of year | Anillo |
-| Total profit in [Month] | Summary Number<p>Asking for the &quot;total&quot; of a metric across a certain time range should return a Summary number visualization. |
+| Mostrar mis ganancias en [Mes] | Línea<p>Si se solicita una tendencia o métrica dentro de un intervalo de tiempo determinado, de forma predeterminada, se devuelve una visualización de línea. |
+| Tendencia de pedidos en [Mes] | Línea |
+| Mostrar ingresos por región en [mes] | Barra |
+| Porcentaje de ingresos por categoría de producto | Anillo |
+| Pedidos por día de la semana, de enero a mayo | Barra |
+| Mostrar pedidos por sexo, de marzo a junio | Barra |
+| ¿Cuál es el beneficio entre SKU de febrero a mayo? | Barra |
+| Ingresos por nombre de tienda en [Mes] | Barra |
+| ¿Cuáles fueron mis 10 SKU principales por beneficio en [Mes]? | Barra |
+| Proporción de compras por mes del año | Anillo |
+| Beneficio total en [mes] | Número de resumen<p>Solicitar el &quot;total&quot; de una métrica en un intervalo de tiempo determinado debe devolver una visualización de Número de resumen. |
 
 
-## Prompting best practices
+## Impulso de las prácticas recomendadas
 
-Data Insights Agent processes the context provided by each user prompt and tries to respond intelligently with the most appropriate visualization and components in a freeform table.
+Data Insights Agent procesa el contexto proporcionado por cada mensaje de usuario e intenta responder de forma inteligente con la visualización y los componentes más adecuados en una tabla de forma libre.
 
-Responses can vary based on the specific words and phrases used in the prompt, and slight changes in language can lead to different results.
+Las respuestas pueden variar en función de las palabras y frases específicas utilizadas en el mensaje, y los ligeros cambios de idioma pueden dar lugar a resultados diferentes.
 
-To achieve the best results, consider the following guidelines:
+Para obtener los mejores resultados, tenga en cuenta las siguientes directrices:
 
-* **Be specific:** Include exact terms to narrow down the response. The following is an example of a specific prompt: &quot;Last month&#39;s sales in California&quot;
+* **Sea específico:** Incluya términos exactos para reducir la respuesta. El siguiente es un ejemplo de un mensaje específico: &quot;Ventas del mes pasado en California&quot;
 
-* **Use clear metrics, dimensions, and segments:** Adding specific metrics (such as &quot;Revenue&quot;), dimensions (such as &quot;website name&quot;), segments (such as &quot;iPhone users&quot;), and date ranges (such as &quot;last three months&quot;) helps Data Insights Agent focus on the right data.
+* **Use métricas, dimensiones y segmentos claros:** Si agrega métricas específicas (como &quot;Ingresos&quot;), dimensiones (como &quot;nombre del sitio web&quot;), segmentos (como &quot;usuarios de iPhone&quot;) e intervalos de fechas (como &quot;últimos tres meses&quot;), Data Insights Agent podrá centrarse en los datos correctos.
 
-* **Ask direct questions:** Phrasing questions directly makes it easier for Data Insights Agent to provide clear, relevant insights. The following is an example of asking a direct question in a prompt: &quot;What is the average revenue by product category this year?&quot;
+* **Haga preguntas directas:** Las preguntas de redacción facilitan directamente que Data Insights Agent proporcione perspectivas claras y relevantes. El siguiente es un ejemplo de cómo realizar una pregunta directa en un mensaje: &quot;¿Cuál es el ingreso promedio por categoría de producto este año?&quot;
 
-Review the following table of example terms and phrases that you can use in prompts with Data Insights Agent, along with the types of responses you can expect.
+Revise la siguiente tabla de términos y frases de ejemplo que puede utilizar en las peticiones de datos con Data Insights Agent, junto con los tipos de respuesta que puede esperar.
 
-These examples are designed to help you get familiar with how specific words or structures can influence the output of the Data Insights Agent, ensuring more precise and valuable insights. Data Insights Agent uses generative AI, so visualizations or selected data may vary slightly across similar prompts.
+Estos ejemplos están diseñados para ayudarle a familiarizarse con cómo palabras o estructuras específicas pueden influir en el resultado de Data Insights Agent, lo que garantiza perspectivas más precisas y valiosas. Data Insights Agent utiliza IA generativa, por lo que las visualizaciones de los datos seleccionados pueden variar ligeramente según los indicadores similares.
 
-| Desired outcome | Example terms and phrases |
+| Resultado deseado | Ejemplo de términos y frases |
 | --- | --- |
-| Summary number visualization | <ul><li>Total</li></ul> |
+| Visualización de número de resumen | <ul><li>Total</li></ul> |
 | Comparar componentes | <ul><li>Comparar</li><li>VS</li><li>Contraste</li><li>Semana a semana</li><li>Mes tras mes</li><li>Trimestre tras trimestre</li><li>Año tras año</li></ul> |
 | Visualización de anillo | <ul><li>Proporción</li><li>Cuota de</li><li>Distribución</li><li>Porcentaje</li><li>Contribución</li><li>Parte</li><li>Piezas</li></ul> |
 | Visualización de líneas | <ul><li>Tendencia</li><li>[Métrica] en [intervalo de tiempo]</li></ul> |
@@ -276,7 +276,7 @@ A continuación se describen las prácticas recomendadas para la configuración 
 * **Equilibre los componentes que necesita**. No agregue todos los campos de los conjuntos de datos como métricas o componentes de dimensión a la vista de datos, especialmente los que no espera utilizar en el análisis. Por otro lado, no se limite estrictamente a los campos que prevé que necesite para el análisis. Una vista de datos demasiado limitada restringe la flexibilidad del análisis y la funcionalidad de Data Insights Agent.
 * **Use siempre nombres descriptivos para mostrar**. Asegúrese de que todos los campos que defina en la vista de datos, ya sea como una métrica o un componente de dimensión, tengan un nombre de componente descriptivo. El proceso de cambiar el nombre de los campos con un nombre descriptivo es especialmente relevante para los campos de conjuntos de datos del conector de origen de Adobe Analytics. Estos campos a menudo tienen nombres no descriptivos no identificables, como `eVar41` o `prop25`.
 * **Use nombres distintivos**. Los nombres distintivos son especialmente relevantes cuando se utiliza el mismo campo como componente de métrica y de dimensión en la vista de datos. O cuando se utiliza un campo en varios componentes del mismo tipo (por ejemplo, en dos métricas diferentes), cada uno con una configuración de componente diferente.
-* **Use una convención de nomenclatura de componentes**. Puede utilizar una convención de nombres de componentes para agrupar componentes. Por ejemplo, **[!UICONTROL Pedidos | Producto]** y **[!UICONTROL Pedidos | Cliente]** pueden distinguir entre distintas métricas de pedidos que podrían existir en sus datos.
+* **Use una convención de nomenclatura de componentes**. Puede utilizar una convención de nombres de componentes para agrupar componentes. Por ejemplo, **[!UICONTROL Pedidos | Producto]** y **[!UICONTROL Pedidos | Customer]** puede distinguir entre distintas métricas de pedidos que podrían existir en sus datos.
 * **Usar el diccionario de datos**. Agregue descripciones y otros datos relevantes para los componentes del diccionario de datos. En la actualidad, Data Insights Agent no utiliza descripciones ni etiquetas del diccionario de datos, pero es posible que lo haga en el futuro.
 * **Usar métricas calculadas aprobadas**. Acuerde un proceso para utilizar solamente métricas calculadas aprobadas como componentes en la vista de datos y evitar el uso de métricas calculadas experimentales.
 * **Comparta los segmentos necesarios**. Asegúrese de compartir segmentos y de hacer visibles los segmentos necesarios para las peticiones de datos de Data Insights Agent.
@@ -289,3 +289,4 @@ A continuación se describen las prácticas recomendadas para la configuración 
 >[Diccionario de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
 >[Aprobar métrica calculada](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
 >[Compartir segmentos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/segments/seg-share)
+
