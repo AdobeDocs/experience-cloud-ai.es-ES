@@ -53,7 +53,7 @@ Journey Agent consta de cuatro tareas principales que se deben realizar:
 - **Creación de contenido de canal**: genera, edita y administra contenido específico del canal (correo electrónico, push, SMS) para recorridos mediante la generación de contenido con tecnología de IA
 - **Análisis de Recorrido**: Analice recorridos, detecte problemas, descubra información y optimice la participación de los clientes
 
-Además, **Simulación de Recorrido** es una característica de Journey Optimizer que incluye [Simulación de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), una habilidad auténtica en el producto, no conversacional, con tres características:
+Además, **Simulación de Recorrido** es una característica de Journey Optimizer que incluye [Simulación de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), una habilidad auténtica en el producto, no conversacional, con tres características:
 
 - Generación de usuarios simulados
 - Generación de valores de evento
@@ -283,7 +283,7 @@ Actualmente no se admiten las siguientes funcionalidades:
 
 Journey Agent permitirá a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con Journey Agent, los profesionales pueden identificar y resolver rápidamente conflictos de programación o audiencia, detectar puntos de abandono de usuarios en un recorrido y proporcionar perspectivas o recomendaciones. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación del cliente y agilizar la orquestación del recorrido.
 
-Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/es/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -503,4 +503,4 @@ Además de esto, la aptitud para simular Recorridos admite las siguientes capaci
 
 Es posible que la simulación no admita todas las actividades, canales o integraciones compatibles con el modo de prueba o un recorrido en directo, y que el comportamiento cambie a medida que la capacidad madura.
 
-➡️ Obtenga más información acerca de [Limitaciones de simulación](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) en la documentación de Journey Optimizer.
+➡️ Obtenga más información acerca de [Limitaciones de simulación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) en la documentación de Journey Optimizer.
