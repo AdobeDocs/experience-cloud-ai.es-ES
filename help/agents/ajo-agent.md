@@ -29,10 +29,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d209365776b2467f5230fa2cc9a3a4534eb57328
+source-git-commit: f68659190b3333b918e6d5d5aaec37d1f9a28d49
 workflow-type: tm+mt
-source-wordcount: 2687
-ht-degree: 14%
+source-wordcount: 3360
+ht-degree: 11%
 
 ---
 
@@ -47,11 +47,17 @@ ht-degree: 14%
 
 Journey Agent permite a los usuarios de Journey Optimizer crear, analizar y optimizar recorridos de marketing mediante una interfaz de lenguaje natural. Con Journey Agent, los profesionales pueden crear recorridos rápidamente, detectar y resolver conflictos de programación o público, analizar el rendimiento y los puntos de abandono, e identificar los recorridos de mayor rendimiento para replicarlos en futuras campañas. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación de los clientes y optimizar la organización de recorridos.
 
-Journey Agent consta de tres tareas principales que se deben realizar:
+Journey Agent consta de cuatro tareas principales que se deben realizar:
 
 - **Creación de Recorrido**: cree y configure recorridos de marketing mediante mensajes en lenguaje natural
 - **Creación de contenido de canal**: genera, edita y administra contenido específico del canal (correo electrónico, push, SMS) para recorridos mediante la generación de contenido con tecnología de IA
 - **Análisis de Recorrido**: Analice recorridos, detecte problemas, descubra información y optimice la participación de los clientes
+
+Además, **Simulación de Recorrido** es una característica de Journey Optimizer que incluye [Simulación de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), una habilidad auténtica en el producto, no conversacional, con tres características:
+
+- Generación de usuarios simulados
+- Generación de valores de evento
+- Simulación rápida
 
 ## Recorrido Crear: Casos de uso, Aptitudes de agente y Guía del usuario
 
@@ -419,8 +425,82 @@ Para maximizar la eficacia del análisis de Recorrido, siga estas prácticas rec
 - **Monitorice de forma periódica**: programe revisiones periódicas del rendimiento de los recorridos para identificar las tendencias y las anomalías.
 - **Optimice la segmentación**: asegúrese de que la segmentación del público está equilibrada para evitar la fatiga y maximizar la participación.
 
-## Diapositivas y presentaciones
+## Recorrido Simular: Casos de uso, habilidades de agente y guía del usuario
 
->[!NOTE]
->
->Las diapositivas y el material de presentación de Journey Agent estarán disponibles aquí. Vuelva pronto para ver las actualizaciones.
+## Información general
+
+>[!BEGINSHADEBOX]
+
+La simulación de recorrido está disponible para todos los clientes de Journey Optimizer. Simulación de recorrido, la habilidad genética del producto dentro de la simulación de Recorrido, está disponible para los clientes que forman parte del programa Agent Orchestrator Explorer y requiere al menos uno de los siguientes permisos:
+
+- **Simular recorridos**: ejecute flujos de trabajo de simulación desde el lienzo de recorrido.
+
+- **Publicar recorridos**: Publicar recorridos, incluidos los flujos que utilizan simulación antes del lanzamiento.
+
+- **Aprobar y publicar recorridos**: apruebe y publique recorridos cuando su organización utilice flujos de trabajo de aprobación.
+
+Para usar IA en **[!UICONTROL Simulación]** (**[!UICONTROL Simulación rápida]**, que genera usuarios simulados con IA, **[!UICONTROL Generar valores de evento]**), los usuarios necesitan el permiso **[!UICONTROL Generar contenido]** de la capacidad **[!UICONTROL Asistente de IA]**.
+
+[Obtenga más información sobre permisos](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions).
+
+>[!ENDSHADEBOX]
+
+La simulación de recorrido es una función de Journey Optimizer que permite a los usuarios de Journey Optimizer probar y validar de forma segura los recorridos de marketing antes de la activación. Dentro de la simulación de Recorrido, la simulación de Recorrido es una habilidad agéntica en el producto, no conversacional, que automatiza y ayuda al proceso de prueba directamente desde el lienzo de recorrido.
+
+Recorrido Simulate incluye tres funciones:
+
+- Generación de usuarios simulados
+- Generación de valores de evento
+- Simulación rápida.
+
+Juntos, acortan la brecha entre la creación y la activación de recorridos, lo que crea confianza en la lógica de recorrido y reduce el riesgo de errores posteriores al lanzamiento.
+
+## Casos de uso
+
+### Casos de uso clave de Recorrido Simulate
+
+Recorrido Simulate ofrece tres funciones que se pueden aprovechar para reducir el tiempo de prueba y mejorar la calidad del recorrido antes del lanzamiento:
+
+**Generando usuarios simulados**
+
+- Generar usuarios simulados automáticamente según las rutas de recorrido y los atributos necesarios.
+- Cree usuarios simulados que abarquen todas las ramas y condiciones de un recorrido, incluidas las direcciones de ejecución (correo electrónico, push, SMS).
+- Actualizar atributos de usuario simulados bajo demanda para perfeccionar los escenarios de prueba.
+- Asegúrese de que todas las ramas de recorrido estén cubiertas asignando el usuario simulado correcto a cada ruta.
+
+**Generando valores de evento**
+
+- Genere valores para los eventos utilizados en un recorrido para controlar la ejecución de pruebas a través de rutas específicas.
+- Defina valores de atributo de evento que almacenen en déclencheur las condiciones y ramas deseadas durante la simulación.
+
+**Simulación rápida**
+
+- Iniciar la simulación de recorrido y las ejecuciones de prueba de déclencheur para todos los usuarios simulados necesarios para probar todas las rutas de un recorrido en una sola acción.
+- Visualice paso a paso cómo fluyen los usuarios simulados a través de un recorrido, incluidas las rutas ramificadas y la lógica condicional.
+- Identifique qué flujos de usuarios simulados a través de qué ruta y por qué con una travesía detallada nodo a nodo.
+- Revise los informes de simulación al final de una ejecución en la interfaz de usuario de Journey Optimizer para validar los resultados antes de la activación.
+
+## Competencias y limitaciones del ámbito
+
+### **En ámbito**
+
+La función de simulación de Recorrido admite las siguientes funciones:
+
+- **Administración de usuarios simulada**: vea, edite y actualice atributos de usuarios simulados, incluidas direcciones de ejecución y datos de personalización.
+- **Control de simulación**: Inicie y detenga la simulación de recorrido directamente a través de la experiencia de simulación de Recorrido en el producto.
+- **Ejecución de pruebas**: Ejecuciones de pruebas de Déclencheur para uno o varios usuarios simulados.
+- **Visualización del flujo de Recorrido**: vea el recorrido paso a paso de los usuarios simulados a través de los nodos de recorrido, incluidas las ramas, las divisiones y el estado del usuario.
+- **Informes de simulación**: vea los informes al final de una ejecución de simulación en la interfaz de usuario de Journey Optimizer.
+- **Pruebas para varios usuarios**: ejecute y visualice pruebas para varios usuarios simulados simultáneamente, cubriendo todas las ramas de recorrido.
+
+Además de esto, la aptitud para simular Recorridos admite las siguientes capacidades:
+
+- **Generación de usuarios simulados**: cree usuarios simulados basados en rutas de recorrido, perfiles de prueba existentes o atributos especificados.
+- **Generación de valores de eventos**: genere y asigne valores de atributos de eventos para controlar la ejecución de pruebas a través de rutas de recorrido específicas.
+- **Simulación rápida**: Ejecute una simulación completa de extremo a extremo con una intervención mínima. La aptitud genera automáticamente usuarios simulados, valores de evento y ajustes de prueba prerrellenados y, a continuación, ejecuta el recorrido y muestra los resultados para su revisión.
+
+### **Limitaciones**
+
+Es posible que la simulación no admita todas las actividades, canales o integraciones compatibles con el modo de prueba o un recorrido en directo, y que el comportamiento cambie a medida que la capacidad madura.
+
+➡️ Obtenga más información acerca de [Limitaciones de simulación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) en la documentación de Journey Optimizer.
