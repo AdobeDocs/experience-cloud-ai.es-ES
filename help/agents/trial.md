@@ -12,10 +12,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: e385f60b8c55779b636dcc494fced27bc63d1eb3
 workflow-type: tm+mt
-source-wordcount: 1107
-ht-degree: 5%
+source-wordcount: 1243
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->Es posible que algunos clientes de Experience Cloud aptos tengan acceso a la versión de prueba de los agentes de Adobe Experience Platform para experimentar el valor de los agentes en su propio entorno antes de comprometerse a obtener la licencia.
+>Es posible que algunos clientes de Experience Cloud aptos tengan acceso a la versión de prueba de los agentes de Adobe Experience Platform para experimentar el valor de los agentes en su propio entorno antes de comprometerse con la licencia.
 
 El siguiente vídeo tiene como objetivo ayudarle a comprender el periodo de prueba de los agentes de Adobe Experience Platform.
 
@@ -31,14 +31,14 @@ El siguiente vídeo tiene como objetivo ayudarle a comprender el periodo de prue
 
 ## ¿Qué hay disponible con la versión de prueba?
 
-- **Asistente de IA**: Una interfaz conversacional envolvente de página completa con tecnología Agent Orchestrator y que funciona en varios productos, lo que permite a los profesionales usar productos Experience Cloud habilitados aprovechar las capacidades de GenAI y de inteligencia artificial aplicada a la actividad. Para obtener más información, lea la [Guía de la IU del Asistente de IA](../ai-assistant/ai-assistant-ui.md).
-- **Agentes de Adobe Experience Platform**: agentes de IA creados específicamente y capacitados para ofrecer trabajos comunes en categorías de dominios de experiencia del cliente. Puede aprovechar los agentes para ampliar su capacidad de crear y ofrecer experiencias de forma más rápida y con mayor impacto, lo que desbloquea la productividad y la eficacia del siguiente nivel. Para saber qué agentes se pueden aprovechar con cada aplicación de Experience Cloud, lea la documentación sobre [inteligencia artificial aplicada a la agencia en Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/features/agentic-ai).
+- **Ayudante de IA**: Una interfaz conversacional envolvente de página completa con tecnología de Agent Orchestrator y que funciona en varios productos, lo que permite a los profesionales usar productos habilitados de Experience Cloud aprovechar las capacidades de GenAI y de inteligencia artificial aplicada a la actividad. Para obtener más información, lea la [Guía de la IU del Asistente de IA](../ai-assistant/ai-assistant-ui.md).
+- **Agentes de Adobe Experience Platform**: agentes de IA creados específicamente y capacitados para ofrecer trabajos comunes en categorías de dominios de experiencia del cliente. Puede aprovechar los agentes para ampliar su capacidad de crear y ofrecer experiencias de forma más rápida y con mayor impacto, lo que desbloquea la productividad y la eficacia del siguiente nivel. Para saber qué agentes se pueden aprovechar con cada aplicación de Experience Cloud, lea la documentación sobre [IA de agente en Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/features/agentic-ai).
 
 ## Detalles del programa de prueba
 
 Adobe determinará su idoneidad para el periodo de prueba a su criterio. Los clientes que actualmente tengan o hayan tenido una licencia de Promoción de Adobe Experience Platform Agent Orchestrator o una licencia de Créditos de IA de agentes de Experience Platform no son aptos para la versión de prueba.
 
-Los clientes elegibles reciben un derecho único inicial de hasta 10 000 créditos de IA para usar en cualquier combinación de trabajos (según las licencias existentes para las aplicaciones de Experience Cloud) enumerados en la [Tabla de consumo de crédito de IA](https://experienceleague.adobe.com/es/docs/core-services/interface/features/ai-credit-consumption). Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage).
+Los clientes elegibles reciben un derecho único inicial de hasta 10 000 créditos de IA para usar en cualquier combinación de trabajos (según las licencias existentes para las aplicaciones de Experience Cloud) enumerados en [Tabla de consumo de crédito de IA](https://experienceleague.adobe.com/es/docs/core-services/interface/features/ai-credit-consumption). Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -51,6 +51,8 @@ La prueba finaliza una vez que consume el derecho único inicial de 10 000 créd
 Los usuarios de clientes aptos tendrán acceso al asistente y a los agentes de IA como parte de la prueba, por lo que no es necesario realizar ninguna acción. Los agentes de Experience Platform se guían por los datos introducidos por el usuario y la supervisión. Los agentes también respetan los controles de acceso de nivel de producto definidos anteriormente, de modo que los usuarios solo pueden realizar trabajos o ejecutar acciones para las que tengan permisos dentro de los productos de Experience Cloud subyacentes aplicables. Si desea desactivar el acceso a estas funciones del agente y deshabilitar el acceso de prueba, envíe una solicitud a [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
 
 Una vez que tenga acceso, vaya a la página principal de Adobe Experience Cloud para empezar a utilizar el asistente de IA. Puede usar las [solicitudes de detección](../ai-assistant/ai-assistant-ui.md#discovery-prompts) para ver sugerencias de solicitudes y flujos de trabajo comunes. Utilice esta función para acelerar la incorporación con AI Assistant. Además, lea la [biblioteca de mensajes](../ai-assistant/prompt-library.md) para ver una serie de mensajes que puede usar con distintos agentes. Para obtener información más completa, lea la [guía de la interfaz de usuario del Asistente de IA](../ai-assistant/ai-assistant-ui.md).
+
+El panel de monitorización de la inteligencia artificial aplicada a la agencia le ofrece una visibilidad clara sobre cómo se adopta y utiliza la inteligencia artificial aplicada a la agencia en toda la organización. Como usuario autorizado, puede fácilmente rastrear la participación, recopilar comentarios, monitorizar el uso del crédito de IA y revisar las métricas clave. Utilice estas perspectivas para descubrir oportunidades de optimización y apoyar sus esfuerzos de gobernanza y adopción. Para obtener más información, visite la [Guía de supervisión del uso de IA del agente](https://experienceleague.adobe.com/es/docs/core-services/interface/features/monitoring).
 
 Para obtener información sobre los agentes disponibles, lea la [descripción general de Agent Orchestrator](agent-orchestrator.md).
 
@@ -68,7 +70,7 @@ La versión de prueba de Adobe Experience Platform Agents permite que los client
 
 ### ¿Qué agentes están incluidos en este ensayo?
 
-Lea la guía de [Inteligencia artificial aplicada a la actividad en Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/features/agentic-ai) para obtener una lista completa de los agentes incluidos en el ensayo.
+Lea la guía sobre [Inteligencia artificial aplicada a la actividad en Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/features/agentic-ai) para obtener una lista completa de los agentes incluidos en el ensayo.
 
 ### ¿Quién puede participar en este ensayo?
 
@@ -84,9 +86,9 @@ La versión de prueba no requiere ninguna compra adicional. No hay conversión a
 
 ### ¿Quién puede ver el uso y cómo?
 
-Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage).
+Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage). Utilice el panel para ver el uso de los créditos de IA y los informes. Solo los administradores y usuarios con los permisos adecuados pueden ver la información de uso.
 
-Utilice el panel para ver el uso de los créditos de IA y los informes. Solo los administradores y usuarios con los permisos adecuados pueden ver la información de uso.
+También puede utilizar el panel de monitorización de IA agente para introducir insight en la adopción, la participación, los comentarios y el uso del crédito de IA en toda la organización. Los usuarios autorizados pueden utilizar el panel para realizar un seguimiento de las métricas clave, identificar las oportunidades de optimización y apoyar las iniciativas de gobernanza y adopción. Para obtener más información, lea la guía sobre [Supervisión de la IA del agente](https://experienceleague.adobe.com/es/docs/core-services/interface/features/monitoring).
 
 ### ¿Qué pasa después de que termine el juicio?
 
