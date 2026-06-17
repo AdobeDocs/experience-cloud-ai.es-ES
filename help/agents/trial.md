@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e385f60b8c55779b636dcc494fced27bc63d1eb3
+source-git-commit: e463f08590d0d44d286e3ce69e57607d35e74489
 workflow-type: tm+mt
 source-wordcount: 1243
 ht-degree: 4%
@@ -88,7 +88,7 @@ La versión de prueba no requiere ninguna compra adicional. No hay conversión a
 
 Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage). Utilice el panel para ver el uso de los créditos de IA y los informes. Solo los administradores y usuarios con los permisos adecuados pueden ver la información de uso.
 
-También puede utilizar el panel de monitorización de IA agente para introducir insight en la adopción, la participación, los comentarios y el uso del crédito de IA en toda la organización. Los usuarios autorizados pueden utilizar el panel para realizar un seguimiento de las métricas clave, identificar las oportunidades de optimización y apoyar las iniciativas de gobernanza y adopción. Para obtener más información, lea la guía sobre [Supervisión de la IA del agente](https://experienceleague.adobe.com/es/docs/core-services/interface/features/monitoring).
+También puede utilizar el panel de monitorización de IA agente para introducir insight en la adopción, la participación, los comentarios y el uso del crédito de IA en su organización. Los usuarios autorizados pueden utilizar el panel para realizar un seguimiento de las métricas clave, identificar las oportunidades de optimización y apoyar las iniciativas de gobernanza y adopción. Para obtener más información, lea la guía sobre [Supervisión de la IA del agente](https://experienceleague.adobe.com/es/docs/core-services/interface/features/monitoring).
 
 ### ¿Qué pasa después de que termine el juicio?
 
