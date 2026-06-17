@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e463f08590d0d44d286e3ce69e57607d35e74489
+source-git-commit: 3f67508410c0a41a8edb6f22f20f4c25709df9f7
 workflow-type: tm+mt
 source-wordcount: 1243
 ht-degree: 4%
@@ -40,6 +40,8 @@ Adobe determinará su idoneidad para el periodo de prueba a su criterio. Los cli
 
 Los clientes elegibles reciben un derecho único inicial de hasta 10 000 créditos de IA para usar en cualquier combinación de trabajos (según las licencias existentes para las aplicaciones de Experience Cloud) enumerados en [Tabla de consumo de crédito de IA](https://experienceleague.adobe.com/es/docs/core-services/interface/features/ai-credit-consumption). Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage).
 
+El panel de monitorización de la inteligencia artificial aplicada a la agencia le ofrece una visibilidad clara sobre cómo se adopta y utiliza la inteligencia artificial aplicada a la agencia en toda la organización. Como usuario autorizado, puede fácilmente rastrear la participación, recopilar comentarios, monitorizar el uso del crédito de IA y revisar las métricas clave. Utilice estas perspectivas para descubrir oportunidades de optimización y apoyar sus esfuerzos de gobernanza y adopción. Para obtener más información, visite la [Guía de supervisión del uso de IA del agente](https://experienceleague.adobe.com/es/docs/core-services/interface/features/monitoring).
+
 >[!IMPORTANT]
 >
 >Los créditos de IA solo existen durante la prueba y **no se traspasan** si otorga la licencia de créditos de IA adicionales antes de usar los 10 000 créditos de IA asignados.
@@ -51,8 +53,6 @@ La prueba finaliza una vez que consume el derecho único inicial de 10 000 créd
 Los usuarios de clientes aptos tendrán acceso al asistente y a los agentes de IA como parte de la prueba, por lo que no es necesario realizar ninguna acción. Los agentes de Experience Platform se guían por los datos introducidos por el usuario y la supervisión. Los agentes también respetan los controles de acceso de nivel de producto definidos anteriormente, de modo que los usuarios solo pueden realizar trabajos o ejecutar acciones para las que tengan permisos dentro de los productos de Experience Cloud subyacentes aplicables. Si desea desactivar el acceso a estas funciones del agente y deshabilitar el acceso de prueba, envíe una solicitud a [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
 
 Una vez que tenga acceso, vaya a la página principal de Adobe Experience Cloud para empezar a utilizar el asistente de IA. Puede usar las [solicitudes de detección](../ai-assistant/ai-assistant-ui.md#discovery-prompts) para ver sugerencias de solicitudes y flujos de trabajo comunes. Utilice esta función para acelerar la incorporación con AI Assistant. Además, lea la [biblioteca de mensajes](../ai-assistant/prompt-library.md) para ver una serie de mensajes que puede usar con distintos agentes. Para obtener información más completa, lea la [guía de la interfaz de usuario del Asistente de IA](../ai-assistant/ai-assistant-ui.md).
-
-El panel de monitorización de la inteligencia artificial aplicada a la agencia le ofrece una visibilidad clara sobre cómo se adopta y utiliza la inteligencia artificial aplicada a la agencia en toda la organización. Como usuario autorizado, puede fácilmente rastrear la participación, recopilar comentarios, monitorizar el uso del crédito de IA y revisar las métricas clave. Utilice estas perspectivas para descubrir oportunidades de optimización y apoyar sus esfuerzos de gobernanza y adopción. Para obtener más información, visite la [Guía de supervisión del uso de IA del agente](https://experienceleague.adobe.com/es/docs/core-services/interface/features/monitoring).
 
 Para obtener información sobre los agentes disponibles, lea la [descripción general de Agent Orchestrator](agent-orchestrator.md).
 
