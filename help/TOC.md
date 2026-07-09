@@ -5,10 +5,10 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga más información sobre el Asistente de IA en Experience Cloud. Mejore su conocimiento de los productos y obtenga datos operativos utilizando IA en Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 047d5ff2aacdc0e74be6757c996fc73006432e66
+source-git-commit: f82d4d72fb14600aa5cb5113e47cbb08c1989076
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 52%
+source-wordcount: '119'
+ht-degree: 49%
 
 ---
 
@@ -39,3 +39,4 @@ ht-degree: 52%
    - [MCP de Real-Time CDP](./mcp/rtcdp-mcp.md)
 - Compañero {#coworker}
    - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
+   - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
