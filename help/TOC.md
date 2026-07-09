@@ -47,7 +47,7 @@ ht-degree: 36%
       - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
       - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
       - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-      - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+      - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
    - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
    - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)

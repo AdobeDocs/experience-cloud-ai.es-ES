@@ -26,7 +26,7 @@ Adobe CX Enterprise expone las herramientas de producto a través de un único M
 | Journey Optimizer | Beta | Licencia de Journey Optimizer activa, habilitación de Beta para su organización de Adobe y permisos para ver campañas y configuraciones de canal. |
 | Customer Journey Analytics | Disponible | Licencia de Customer Journey Analytics activa y un perfil de producto que incluye el elemento de permiso **Acceso a MCP** en Adobe Admin Console. Los permisos del producto siguen controlando a qué vistas de datos, componentes, informes, proyectos y audiencias puede acceder o modificar. |
 | Adobe Analytics | Disponible | Licencia de Adobe Analytics activa y un perfil de producto que incluye el elemento de permiso **Acceso a MCP** en Adobe Admin Console. Los permisos de producto siguen controlando a qué grupos de informes, componentes, informes, segmentos, intervalos de fechas y proyectos puede acceder o modificar. |
-| Workfront | Vista previa | Licencia de Workfront activa y habilitación de MCP de Workfront. Consulte la [documentación de MCP de Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview). |
+| Workfront | Vista previa | Licencia de Workfront activa y habilitación de MCP de Workfront. Consulte la [documentación de MCP de Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview). |
 
 
 >[!NOTE]
