@@ -5,7 +5,7 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga más información sobre el Asistente de IA en Experience Cloud. Mejore su conocimiento de los productos y obtenga datos operativos utilizando IA en Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: baab2a961192305bd00ecaae076af277421be210
+source-git-commit: e5bf7d7ac41af7e373cc9eaef2bd11b2f91f4cd2
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 35%
@@ -37,7 +37,7 @@ ht-degree: 35%
       - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
    - [Adobe CX Enterprise MCP](./mcp/overview.md)
-   - [Real-Time CDP MCP beta](./mcp/rtcdp-mcp-beta.md)
+   - {hide-from-toc}[Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
    - Introducción {#mcp-get-started}
       - [Acceso a las herramientas MCP de CX Enterprise](./mcp/access.md)
       - [Instalar CX Enterprise MCP](./mcp/install.md)
@@ -48,7 +48,7 @@ ht-degree: 35%
       - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
       - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
       - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-      - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+      - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
    - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
    - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
