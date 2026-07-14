@@ -84,11 +84,11 @@ Los permisos del producto siguen aplicándose. Su cuenta debe poder ver las vist
 
 **Información general**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486313/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486317/?captions=spa&learn=on&enablevpops)
 
 **En acción**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486314/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486328/?captions=spa&learn=on&enablevpops)
 
 ## Más información {#mcp-more}
 
