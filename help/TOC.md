@@ -5,7 +5,7 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga más información sobre el Asistente de IA en Experience Cloud. Mejore su conocimiento de los productos y obtenga datos operativos utilizando IA en Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: e5bf7d7ac41af7e373cc9eaef2bd11b2f91f4cd2
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 35%
@@ -36,19 +36,19 @@ ht-degree: 35%
    - Ingeniería de datos {#data-engineering}
       - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-   - [Adobe CX Enterprise MCP](./mcp/overview.md)
+   - [Adobe CX Coworker Gateway](./mcp/overview.md)
    - {hide-from-toc}[Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
    - Introducción {#mcp-get-started}
-      - [Acceso a las herramientas MCP de CX Enterprise](./mcp/access.md)
-      - [Instalar CX Enterprise MCP](./mcp/install.md)
-      - [Herramientas de contexto de sesión en CX Enterprise MCP](./mcp/context-tools.md)
+      - [Acceso a las herramientas de CX Coworker Gateway](./mcp/access.md)
+      - [Instalar CX Coworker Gateway](./mcp/install.md)
+      - [Herramientas de contexto de sesión en CX Coworker Gateway](./mcp/context-tools.md)
    - Herramientas de producto {#mcp-product-tools}
       - [Herramientas de Real-Time CDP](./mcp/rtcdp-mcp.md)
       - [Herramientas de Experience Platform](./mcp/aep-mcp.md)
       - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
       - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
       - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-      - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+      - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
    - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
    - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)

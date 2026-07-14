@@ -1,20 +1,20 @@
 ---
-title: Herramientas de contexto de sesión en CX Enterprise MCP
-description: Obtenga información sobre las herramientas principales que establecen la organización, la zona protegida y el contexto de vista de datos para todas las llamadas a la herramienta MCP de CX Enterprise.
-source-git-commit: 023a4c15ca787c9b110b52914fd18d0e6eecd23d
+title: Herramientas de contexto de sesión en CX Coworker Gateway
+description: Obtenga información sobre las herramientas principales que establecen el contexto de organización, zona protegida y vista de datos para todas las llamadas a la herramienta CX Coworker Gateway.
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
-# Herramientas de contexto de sesión en Adobe CX Enterprise MCP {#mcp-core}
+# Herramientas de contexto de sesión en Adobe CX Coworker Gateway {#mcp-core}
 
-Adobe CX Enterprise MCP incluye un conjunto de herramientas de contexto de sesión que establecen la organización de Adobe, la zona protegida de Adobe Experience Platform y la vista de datos de Customer Journey Analytics en las que funcionan todas las demás herramientas de producto. No se requiere ninguna licencia ni habilitación adicional: estas herramientas están disponibles para todos los usuarios autenticados después de conectarse al [servidor MCP de CX Enterprise](overview.md).
+Adobe CX Coworker Gateway incluye un conjunto de herramientas de contexto de sesión que establecen la organización de Adobe, la zona protegida de Adobe Experience Platform y la vista de datos de Customer Journey Analytics en las que funcionan todas las demás herramientas de producto. No se requiere ninguna licencia ni habilitación adicional: estas herramientas están disponibles para todos los usuarios autenticados después de conectarse al [servidor CX Coworker Gateway](overview.md).
 
 ## Funcionamiento del contexto {#mcp-core-how}
 
-CX Enterprise MCP analiza cada llamada de herramienta a una organización de Adobe activa. Además, los requisitos de contexto dependen del producto:
+CX Coworker Gateway analiza cada llamada de herramienta a una organización de Adobe activa. Además, los requisitos de contexto dependen del producto:
 
 - **Los productos basados en Experience Platform** — las herramientas [Real-Time CDP](rtcdp-mcp.md), [Experience Platform](aep-mcp.md) y [Journey Optimizer](ajo-mcp.md) funcionan dentro de una zona protegida de Experience Platform. Establezca la zona protegida una vez por sesión con `core-set_sandbox`; los tres la comparten.
 - **Otros productos**: los productos que no se hayan creado en Experience Platform no usan el contexto de zona protegida. Por ejemplo, las herramientas de [Customer Journey Analytics](cja-mcp.md) se resuelven con una vista de datos y las herramientas de [Adobe Analytics](analytics-mcp.md) se resuelven con los grupos de informes.
@@ -64,5 +64,5 @@ El cliente llamará a las herramientas adecuadas y confirmará una vez estableci
 
 ## Páginas relacionadas {#mcp-core-related}
 
-- [Instalar Adobe CX Enterprise MCP](install.md): cómo conectar su cliente MCP, incluida la sección de configuración del contexto del producto.
-- [Acceder a las herramientas de MCP de CX Enterprise](access.md) — requisitos de acceso por producto.
+- [Instalar Adobe CX Coworker Gateway](install.md): cómo conectar su cliente MCP, incluida la sección de configuración del contexto del producto.
+- [Acceder a las herramientas de puerta de enlace de Coworker de CX](access.md) — requisitos de acceso por producto.

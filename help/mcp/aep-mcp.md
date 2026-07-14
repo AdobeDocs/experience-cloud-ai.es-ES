@@ -1,7 +1,7 @@
 ---
-title: Herramientas de Adobe Experience Platform en CX Enterprise MCP
-description: Conozca qué herramientas de Adobe Experience Platform están disponibles a través de CX Enterprise MCP.
-source-git-commit: 152079b15dc0dfd1dbe389fe2d18be0780b5bf71
+title: Herramientas Adobe Experience Platform en CX Coworker Gateway
+description: Descubra qué herramientas de Adobe Experience Platform están disponibles a través de CX Coworker Gateway.
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '1372'
 ht-degree: 8%
@@ -9,13 +9,13 @@ ht-degree: 8%
 ---
 
 
-# Herramientas de Adobe Experience Platform en Adobe CX Enterprise MCP {#aep-mcp}
+# Herramientas de Adobe Experience Platform en Adobe CX Coworker Gateway {#aep-mcp}
 
-Puede utilizar las herramientas de producto de Adobe Experience Platform para inspeccionar esquemas, conjuntos de datos, configuración de control de datos, recursos del servicio de consultas y eventos de auditoría desde un cliente compatible con MCP. Estas herramientas están disponibles a través de [Adobe CX Enterprise MCP](overview.md) cuando su organización está habilitada y su cuenta de usuario tiene los permisos de Experience Platform necesarios.
+Puede utilizar las herramientas de producto de Adobe Experience Platform para inspeccionar esquemas, conjuntos de datos, configuración de control de datos, recursos del servicio de consultas y eventos de auditoría desde un cliente compatible con MCP. Estas herramientas están disponibles a través de [Adobe CX Coworker Gateway](overview.md) cuando su organización está habilitada y su cuenta de usuario tiene los permisos de Experience Platform requeridos.
 
 >[!AVAILABILITY]
 >
->La herramienta de producto de Experience Platform se encuentra en Beta. El acceso se realiza únicamente por invitación y requiere la habilitación de la organización de Adobe. Consulte [Acceder a las herramientas de MCP de CX Enterprise](access.md).
+>La herramienta de producto de Experience Platform se encuentra en Beta. El acceso se realiza únicamente por invitación y requiere la habilitación de la organización de Adobe. Consulte [Herramientas de Access CX Coworker Gateway](access.md).
 
 ## Resumen
 
