@@ -1,15 +1,19 @@
 ---
 title: Validar datos con su compañero de trabajo al actualizar de Adobe Analytics a Customer Journey Analytics
-description: Descubra cómo los administradores de Analytics utilizan la habilidad de validación de datos de CX Enterprise Coworker para comparar los datos de Adobe Analytics y Customer Journey Analytics durante la migración.
+description: Descubra cómo los administradores de Analytics utilizan la habilidad de validación de datos de CX Enterprise Coworker para comparar los datos de Adobe Analytics y Customer Journey Analytics durante la actualización.
 hide: true
-source-git-commit: 1d0c3b73a3a9f18440920a19caa4645243e73730
+source-git-commit: 1a93f2afc1e8d33f8d42b24018758d51916dd61d
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1542'
 ht-degree: 0%
 
 ---
 
 # Validar datos con su compañero de trabajo al actualizar de Adobe Analytics a Customer Journey Analytics
+
+>[!NOTE]
+> 
+>Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los pasos de actualización recomendados (recomendados para la mayoría de las organizaciones) o puede seguir los pasos generados dinámicamente para su organización con la Guía de actualización de Customer Journey Analytics. <ul><li>**Pasos de actualización recomendados** (recomendado para la mayoría de las organizaciones)<p>Un conjunto de pasos que conducen a una implementación de Customer Journey Analytics ideal.</p><p>Para obtener información detallada, consulte [Actualizar de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Guía de actualización de Customer Journey Analytics** (Pasos personalizados adaptados a las necesidades específicas de su organización)<p>Hay disponible una nueva guía de actualización que genera dinámicamente pasos de actualización adaptados a su organización y a sus circunstancias únicas.</p><p>Para acceder a la guía desde Customer Journey Analytics, selecciona la pestaña **[!UICONTROL Workspace]** y, a continuación, selecciona **[!UICONTROL Actualizar a Customer Journey Analytics]** en el panel izquierdo. Siga las instrucciones que aparecen en pantalla.</p></li></ul>
 
 CX Enterprise Coworker incluye una habilidad de validación que le permite validar datos al actualizar de Adobe Analytics a Customer Journey Analytics. La validación de datos se completa en una sola conversación.
 
@@ -23,13 +27,15 @@ Después de realizar estas comparaciones, la aptitud genera perspectivas y recom
 
 ## Antes de empezar
 
+
+
 Para validar los datos como parte de la actualización, necesita lo siguiente:
 
 * El grupo de informes de Adobe Analytics que desea validar.
 
 * La vista de datos de Customer Journey Analytics que contiene los mismos datos.
 
-No necesita saber cómo se ha creado su implementación con antelación. La aptitud detecta automáticamente si los datos se asignan mediante un conector de origen de Analytics o mediante dos implementaciones en paralelo, por lo que no tiene que proporcionar ese contexto usted mismo.
+No necesita saber cómo se ha diseñado la implementación. La aptitud detecta automáticamente si la implementación de Customer Journey Analytics utiliza el conector de Source de Analytics o una nueva implementación de Experience Platform Web SDK.
 
 ## Iniciar una sesión de validación
 
@@ -37,7 +43,7 @@ No necesita saber cómo se ha creado su implementación con antelación. La apti
 
 1. Seleccione [!UICONTROL **Nuevo chat**].
 
-1. En el campo de texto, solicite al agente que valide la migración de Adobe Analytics a Customer Journey Analytics:
+1. En el campo de texto, solicite al agente que valide la actualización de Adobe Analytics a Customer Journey Analytics:
 
    **Mensaje**
 
@@ -71,9 +77,7 @@ Puede validar métricas o dimensiones individuales, o bien puede validar todas l
    |---------|----------|
    | [!UICONTROL **Comparación de métrica única**] | Comparar la tendencia de una métrica entre Adobe Analytics y Customer Journey Analytics. Utilícelo cuando desee realizar una comprobación rápida de una métrica específica, como vistas de página o visitas. |
    | [!UICONTROL **Comparación de dimensión única**] | Compare el desglose de una sola dimensión entre Adobe Analytics y Customer Journey Analytics. Utilícelo cuando sospeche una diferencia de asignación o clasificación para una dimensión específica. |
-   | [!UICONTROL **Auditoría completa de grupos de informes y vistas de datos**] | Compare hasta 40 métricas y 10 dimensiones en una sola ejecución. Utilícelo cuando desee obtener una vista completa del estado general de la migración. |
-
-
+   | [!UICONTROL **Auditoría completa de grupos de informes y vistas de datos**] | Compare hasta 40 métricas de Adobe Analytics y 20 dimensiones con sus homólogos de Customer Journey Analytics en una sola ejecución. Utilícelo cuando desee obtener una vista completa del estado general de la actualización. |
 
 1. Continúe con la siguiente sección [Revisar el análisis](#review-the-analysis).
 
@@ -122,7 +126,7 @@ Puede validar métricas o dimensiones individuales, o bien puede validar todas l
 
    >[!NOTE]
    >
-   >Se esperan algunas variaciones que no indican ningún problema con la migración.
+   >Se esperan algunas variaciones que no indican ningún problema con la actualización a Customer Journey Analytics.
 
    Los problemas comunes incluyen:
 
@@ -136,5 +140,7 @@ Puede validar métricas o dimensiones individuales, o bien puede validar todas l
 
 1. Compruebe que las acciones sugeridas son válidas y, a continuación, resuelva el problema en Adobe Experience Platform o Adobe Analytics.
 
-1. (Opcional) Continúe con el análisis analizando otra métrica, analizando otra dimensión o ejecutando otro informe de hasta 40 métricas y 10 dimensiones, como se describe en [Elija los datos que desea validar](#choose-the-data-to-validate). No es necesario que repita el proceso de configuración para hacerlo; su empresa, grupo de informes y selecciones de vista de datos se transfieren a lo largo de la conversación.
+1. (Opcional) Continúe con el análisis analizando otra métrica, analizando otra dimensión o ejecutando otro informe de hasta 40 métricas y 20 dimensiones, como se describe en [Elija los datos que desea validar](#choose-the-data-to-validate). No es necesario que repita el proceso de configuración para hacerlo; su empresa, grupo de informes y selecciones de vista de datos se transfieren a lo largo de la conversación.
+
+1. Siga los [pasos de actualización recomendados](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) o los pasos de actualización generados dinámicamente en la Guía de actualización de Customer Journey Analytics. Para acceder a la guía desde Customer Journey Analytics, selecciona la pestaña **[!UICONTROL Workspace]** y, a continuación, selecciona **[!UICONTROL Actualizar a Customer Journey Analytics]** en el panel izquierdo. Siga las instrucciones que aparecen en pantalla.
 
