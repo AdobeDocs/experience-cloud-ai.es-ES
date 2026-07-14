@@ -1,18 +1,10 @@
 ---
 title: Experimentation Agent
 description: Aprenda a utilizar Experimentation Agent
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b2afc6a3f389790d7af2d4ba29a4362b28432a28
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: fddbc156de78cc72bcc1ed4906be6e089191f5b0
 workflow-type: tm+mt
 source-wordcount: 555
 ht-degree: 4%
@@ -22,7 +14,7 @@ ht-degree: 4%
 # Experimentation Agent
 
 <!--
-TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+TQID: https://experienceleague.adobe.com/ARh16ylmUDrp%2D%2D%2Dg8KuYNyewIv54IQ53pxoE2g700o0
 -->
 
 >[!AVAILABILITY]
@@ -41,7 +33,7 @@ Los siguientes permisos para utilizar completamente las funciones de Experimenta
 
 * **Administrar metadatos de experimento**: este permiso le permite usar Experimentation Agent para crear nuevos experimentos directamente en el asistente de IA.
 
-➡️ [Obtenga más información en la documentación de Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/es/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [Obtenga más información en la documentación de Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Como parte de la función de Experimentation Accelerator, el agente proporciona lo siguiente:
 
@@ -86,7 +78,7 @@ Sus capacidades se pueden agrupar en cinco funciones clave:
 Actualmente se admiten las siguientes capacidades:
 
 * Rendimiento
-* Insights
+* Información
 * Oportunidades
 
 ### **Fuera del ámbito de aplicación**
