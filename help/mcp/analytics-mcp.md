@@ -1,20 +1,20 @@
 ---
-title: Herramientas de Adobe Analytics en Adobe CX Enterprise MCP
-description: Descubra qué herramientas de Adobe Analytics están disponibles a través de Adobe CX Enterprise MCP.
-source-git-commit: df05761a8555950366fcaa201ce9c0fd47bb0802
+title: Herramientas de Adobe Analytics en Adobe CX Coworker Gateway
+description: Descubra qué herramientas de Adobe Analytics están disponibles a través de Adobe CX Coworker Gateway.
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 4%
 
 ---
 
-# Herramientas de Adobe Analytics en Adobe CX Enterprise MCP {#aa-mcp}
+# Herramientas de Adobe Analytics en Adobe CX Coworker Gateway {#aa-mcp}
 
-Puede utilizar las herramientas de Adobe Analytics para explorar grupos de informes, descubrir dimensiones y métricas, ejecutar informes y administrar componentes de análisis seleccionados desde un cliente compatible con MCP. Estas herramientas están disponibles a través del [Adobe CX Enterprise MCP](overview.md) unificado cuando su cuenta tiene la licencia y los permisos de Adobe Analytics necesarios.
+Puede utilizar las herramientas de Adobe Analytics para explorar grupos de informes, descubrir dimensiones y métricas, ejecutar informes y administrar componentes de análisis seleccionados desde un cliente compatible con MCP. Estas herramientas están disponibles a través de la [puerta de enlace de Adobe CX Coworker](overview.md) unificada cuando su cuenta tenga la licencia y los permisos de Adobe Analytics requeridos.
 
 >[!AVAILABILITY]
 >
->Las herramientas de Analytics están disponibles para los clientes con una licencia de Adobe Analytics. El acceso está controlado por el permiso **MCP Access** en Adobe Admin Console. Lea [Access CX Enterprise MCP tools](access.md) para obtener más información.
+>Las herramientas de Analytics están disponibles para los clientes con una licencia de Adobe Analytics. El acceso está controlado por el permiso **MCP Access** en Adobe Admin Console. Lea las [herramientas Access CX Coworker Gateway](access.md) para obtener más información.
 
 ## Funcionalidades clave {#mcp-capabilities}
 

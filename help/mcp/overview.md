@@ -1,25 +1,27 @@
 ---
-title: Servidor MCP empresarial de Adobe CX
-description: El servidor MCP de Adobe CX Enterprise es el MCP unificado para Adobe CX Enterprise, lo que proporciona a los clientes de MCP una única conexión a las herramientas de producto compatibles.
-source-git-commit: b40034bdc866a2737b909386b79c028793f324cb
+title: Adobe CX Coworker Gateway
+description: Adobe CX Coworker Gateway es el MCP unificado para Adobe CX Enterprise, que proporciona a los clientes de MCP una única conexión a las herramientas de producto compatibles.
+source-git-commit: 9f654bc1f7282cad51ef54b86167dbea1757364a
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 4%
 
 ---
 
-# Servidor MCP empresarial de Adobe CX {#mcp-overview}
+# Adobe CX Coworker Gateway {#mcp-overview}
 
-El servidor MCP de Adobe CX Enterprise es el protocolo de contexto de modelo unificado (MCP) para Adobe CX Enterprise. Con una conexión, los clientes compatibles con MCP pueden acceder a las herramientas de producto de Adobe que su organización y su cuenta pueden utilizar.
+Adobe CX Coworker Gateway es el protocolo de contexto de modelo unificado (MCP) para Adobe CX Enterprise. Con una conexión, los clientes compatibles con MCP pueden acceder a las herramientas de producto de Adobe que su organización y su cuenta pueden utilizar.
 
 >[!IMPORTANT]
 >
->Para poder utilizar las herramientas MCP de CX Enterprise, su organización de Adobe debe estar habilitada. Si su organización aún no tiene acceso, póngase en contacto con el equipo de cuenta de Adobe para solicitar la habilitación de su organización.
+>Para poder usar las herramientas de **CX Coworker Gateway**, su organización de Adobe debe estar habilitada.
+>
+>Si su organización aún no tiene acceso, envíe un correo electrónico a [cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com) para solicitar la habilitación de su organización.
 
-Use el punto final de CX Enterprise para toda la configuración de cliente de MCP:
+Utilice el punto final de CX Coworker Gateway para toda la configuración del cliente de MCP:
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 Después de conectarse, el extremo expone las herramientas disponibles para su organización y credenciales de Adobe. Las páginas específicas del producto en esta guía describen qué puede hacer cada herramienta de producto, a qué datos puede acceder y cualquier limitación específica del producto.
@@ -28,7 +30,7 @@ Después de conectarse, el extremo expone las herramientas disponibles para su o
 
 MCP (Model Context Protocol) es un estándar de código abierto para conectar aplicaciones de IA a sistemas externos. Los clientes compatibles con MCP como [!DNL Claude], [!DNL ChatGPT], [!DNL Cursor], [!DNL Claude Code], [!DNL Codex] y [!DNL VS Code] pueden utilizar esas herramientas para recuperar el contexto del producto, ejecutar operaciones compatibles y devolver respuestas en lenguaje natural.
 
-CX Enterprise proporciona un punto final controlado para las herramientas de producto de CX Enterprise. En lugar de añadir servidores de producto independientes, conéctese una vez al punto de conexión y utilice las herramientas de producto que aparecen para las soluciones con derechos.
+CX Coworker Gateway proporciona un punto final controlado para las herramientas de producto de CX Coworker Gateway. En lugar de añadir servidores de producto independientes, conéctese una vez al punto de conexión y utilice las herramientas de producto que aparecen para las soluciones con derechos.
 
 ## Herramientas de producto disponibles {#available-product-tools}
 
@@ -47,13 +49,13 @@ En esta guía se documentan las siguientes herramientas de producto:
 
 >[!NOTE]
 >
->La disponibilidad de las herramientas depende de las licencias de los productos, la habilitación de la organización, los permisos de los productos y las credenciales de Adobe utilizadas para la autenticación. El MCP solo muestra las herramientas a las que su organización y su cuenta de usuario tienen derecho de acceso. Consulte [Acceder a las herramientas de MCP de CX Enterprise](access.md).
+>La disponibilidad de las herramientas depende de las licencias de los productos, la habilitación de la organización, los permisos de los productos y las credenciales de Adobe utilizadas para la autenticación. El MCP solo muestra las herramientas a las que su organización y su cuenta de usuario tienen derecho de acceso. Consulte [Herramientas de Access CX Coworker Gateway](access.md).
 
 
 
 ## Introducción {#mcp-get-started}
 
-1. Revise [Acceder a las herramientas de MCP de CX Enterprise](access.md) para confirmar la disponibilidad, habilitación y permisos del producto.
-2. Siga [Instalar Adobe para CX Enterprise MCP](install.md) para conectar su cliente MCP al extremo.
+1. Revise [Acceder a las herramientas de CX Coworker Gateway](access.md) para confirmar la disponibilidad, habilitación y permisos del producto.
+2. Siga [Instalar Adobe para CX Coworker Gateway](install.md) para conectar su cliente MCP al extremo.
 3. Revise la página del producto para cada herramienta de producto que planee utilizar.
 
