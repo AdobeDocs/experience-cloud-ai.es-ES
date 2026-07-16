@@ -40,9 +40,9 @@ La idoneidad del cliente para la prueba es totalmente a discreción de Adobe. La
 Los clientes aptos reciben un derecho único inicial de hasta 10 000 créditos de IA para utilizar en:
 
 - Chat del compañero: Entradas introducidas en el chat del compañero. Durante un periodo de introducción limitado, las entradas consumen créditos de IA a una velocidad de 25 créditos de IA por entrada. Esta tarifa está disponible por tiempo limitado y sujeta a cambios.
-- Agentes de Experience Platform: Cualquier combinación de trabajos realizados con agentes de Experience Platform (según las licencias existentes para las aplicaciones de CX Enterprise) enumerados en la [Tabla de consumo de crédito de IA](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+- Agentes de Experience Platform: Cualquier combinación de trabajos realizados con agentes de Experience Platform (según las licencias existentes para las aplicaciones de CX Enterprise) enumerados en la [Tabla de consumo de crédito de IA](https://experienceleague.adobe.com/es/docs/core-services/interface/features/ai-credit-consumption).
 
-Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage).
 
 El panel de monitorización de la inteligencia artificial aplicada a la agencia le ofrece una visibilidad clara sobre cómo se adopta y utiliza la inteligencia artificial aplicada a la agencia en toda la organización. Los usuarios autorizados pueden rastrear fácilmente la participación, recopilar comentarios, monitorizar el uso del crédito de IA y revisar las métricas clave. Utilice estas perspectivas para descubrir oportunidades de optimización y apoyar sus esfuerzos de gobernanza y adopción. Para obtener más información, visite la [Guía de supervisión del uso de IA del agente](https://experienceleague.adobe.com/es/docs/core-services/interface/features/monitoring).
 
@@ -102,7 +102,7 @@ La versión de prueba se está poniendo a disposición de ciertos clientes de Ad
 
 ### ¿Cuántos créditos de IA obtengo y qué sucede cuando se utilizan esos créditos de IA?
 
-Los clientes aptos reciben hasta 10 000 créditos de IA para la prueba, que se consumen cuando los agentes de Experience Platform (o los compañeros de trabajo) ejecutan tareas. Tenga en cuenta que estos créditos de IA solo existen durante la duración de la experiencia de prueba y no se traspasan si otorga la licencia de créditos de IA adicionales antes de utilizar los 10 000 créditos de IA completos. Para obtener más información sobre el consumo de crédito de IA, lea [Trabajos del agente y la Guía de consumo de crédito de AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+Los clientes aptos reciben hasta 10 000 créditos de IA para la prueba, que se consumen cuando los agentes de Experience Platform (o los compañeros de trabajo) ejecutan tareas. Tenga en cuenta que estos créditos de IA solo existen durante la duración de la experiencia de prueba y no se traspasan si otorga la licencia de créditos de IA adicionales antes de utilizar los 10 000 créditos de IA completos. Para obtener más información sobre el consumo de crédito de IA, lea [Trabajos del agente y la Guía de consumo de crédito de AI](https://experienceleague.adobe.com/es/docs/core-services/interface/features/ai-credit-consumption).
 
 ### ¿Esto cuesta algo?
 
@@ -110,7 +110,7 @@ Esta versión de prueba no requiere ninguna compra adicional. No hay conversión
 
 ### ¿Quién puede ver el uso y cómo?
 
-Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage). Utilice el panel para ver el uso de los créditos de IA y los informes. Solo los administradores y usuarios con los permisos adecuados pueden ver la información de uso.
+Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage). Utilice el panel para ver el uso de los créditos de IA y los informes. Solo los administradores y usuarios con los permisos adecuados pueden ver la información de uso.
 
 Los clientes mantienen el control de quién puede ver el uso y los informes. Solo los administradores y usuarios con los permisos adecuados pueden ver esta información.
 
